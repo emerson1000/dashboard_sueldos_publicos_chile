@@ -60,44 +60,56 @@ st.markdown("""
 def load_data():
     """Carga los datos desde los archivos consolidados (Parquet preferido)."""
     try:
-        # Intentar cargar datos categorizados primero
-        data_file = Path("data/processed/sueldos_categorizados_small.parquet")
-        if data_file.exists():
-            df = pd.read_parquet(data_file)
-            return df
-        
-        # Fallback a CSV categorizado
-        data_file = Path("data/processed/sueldos_categorizados_small.csv")
-        if data_file.exists():
-            df = pd.read_csv(data_file)
-            return df
-        
-        # Fallback a datos finales en Parquet
-        data_file = Path("data/processed/sueldos_consolidado_final_small.parquet")
-        if data_file.exists():
-            df = pd.read_parquet(data_file)
-            return df
-        
-        # Fallback a CSV final
-        data_file = Path("data/processed/sueldos_consolidado_final_small.csv")
-        if data_file.exists():
-            df = pd.read_csv(data_file)
-            return df
-        
-        # Fallback a datos reales consolidados
-        data_file = Path("data/processed/sueldos_reales_consolidado.csv")
+    # Intentar cargar datos filtrados primero (datos limpios)
+    data_file = Path("data/processed/sueldos_filtrados_small.parquet")
+    if data_file.exists():
+        df = pd.read_parquet(data_file)
+        return df
+    
+    # Fallback a CSV filtrado
+    data_file = Path("data/processed/sueldos_filtrados_small.csv")
+    if data_file.exists():
+        df = pd.read_csv(data_file)
+        return df
+    
+    # Fallback a datos categorizados
+    data_file = Path("data/processed/sueldos_categorizados_small.parquet")
+    if data_file.exists():
+        df = pd.read_parquet(data_file)
+        return df
+    
+    # Fallback a CSV categorizado
+    data_file = Path("data/processed/sueldos_categorizados_small.csv")
+    if data_file.exists():
+        df = pd.read_csv(data_file)
+        return df
+    
+    # Fallback a datos finales en Parquet
+    data_file = Path("data/processed/sueldos_consolidado_final_small.parquet")
+    if data_file.exists():
+        df = pd.read_parquet(data_file)
+        return df
+    
+    # Fallback a CSV final
+    data_file = Path("data/processed/sueldos_consolidado_final_small.csv")
+    if data_file.exists():
+        df = pd.read_csv(data_file)
+        return df
+    
+    # Fallback a datos reales consolidados
+    data_file = Path("data/processed/sueldos_reales_consolidado.csv")
+    if data_file.exists():
+        df = pd.read_csv(data_file)
+        return df
+    else:
+        # Fallback a datos consolidados
+        data_file = Path("data/processed/sueldos_consolidado.csv")
         if data_file.exists():
             df = pd.read_csv(data_file)
             return df
         else:
-            # Fallback a datos consolidados
-            data_file = Path("data/processed/sueldos_consolidado.csv")
-            if data_file.exists():
-                df = pd.read_csv(data_file)
-                return df
-            else:
-                st.error("No se encontraron datos. Por favor, ejecuta el ETL primero.")
-                return pd.DataFrame()
+            st.error("No se encontraron datos. Por favor, ejecuta el ETL primero.")
+            return pd.DataFrame()
     except Exception as e:
         st.error(f"Error cargando datos: {e}")
         return pd.DataFrame()
