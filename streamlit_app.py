@@ -60,13 +60,25 @@ st.markdown("""
 def load_data():
     """Carga los datos desde los archivos consolidados (Parquet preferido)."""
     try:
-        # Intentar cargar datos finales en Parquet primero (más eficiente)
+        # Intentar cargar datos categorizados primero
+        data_file = Path("data/processed/sueldos_categorizados_small.parquet")
+        if data_file.exists():
+            df = pd.read_parquet(data_file)
+            return df
+        
+        # Fallback a CSV categorizado
+        data_file = Path("data/processed/sueldos_categorizados_small.csv")
+        if data_file.exists():
+            df = pd.read_csv(data_file)
+            return df
+        
+        # Fallback a datos finales en Parquet
         data_file = Path("data/processed/sueldos_consolidado_final_small.parquet")
         if data_file.exists():
             df = pd.read_parquet(data_file)
             return df
         
-        # Fallback a CSV
+        # Fallback a CSV final
         data_file = Path("data/processed/sueldos_consolidado_final_small.csv")
         if data_file.exists():
             df = pd.read_csv(data_file)
@@ -176,7 +188,15 @@ def main():
     # Sidebar con filtros
     st.sidebar.header("🔍 Filtros")
     
-    # Filtro por organismo
+    # Filtro por categoría de organismo (si existe)
+    if 'categoria_organismo' in df.columns:
+        categorias = ['Todas'] + sorted(df['categoria_organismo'].unique().tolist())
+        categoria_seleccionada = st.sidebar.selectbox("Categoría de Organismo", categorias)
+        
+        if categoria_seleccionada != 'Todas':
+            df = df[df['categoria_organismo'] == categoria_seleccionada]
+    
+    # Filtro por organismo (dentro de la categoría seleccionada)
     organismos = ['Todos'] + sorted(df['organismo'].unique().tolist())
     organismo_seleccionado = st.sidebar.selectbox("Organismo", organismos)
     
@@ -271,9 +291,38 @@ def main():
         st.subheader("📊 Visualizaciones")
         
         # Tabs para diferentes análisis
-        tab1, tab2, tab3, tab4 = st.tabs(["📈 Por Estamento", "🏛️ Por Organismo", "📊 Distribución", "🔍 Top Sueldos"])
+        tabs = ["📈 Por Estamento", "🏛️ Por Organismo", "📊 Distribución", "🔍 Top Sueldos"]
         
-        with tab1:
+        # Agregar tab de categorías si existe la columna
+        if 'categoria_organismo' in df.columns:
+            tabs.insert(0, "🏢 Por Categoría")
+        
+        tab_objects = st.tabs(tabs)
+        
+        # Tab de categorías (si existe)
+        tab_index = 0
+        if 'categoria_organismo' in df.columns:
+            with tab_objects[tab_index]:
+                categoria_promedio = df.groupby('categoria_organismo')['sueldo_bruto'].mean().sort_values(ascending=False)
+                fig_categoria = px.bar(
+                    x=categoria_promedio.index,
+                    y=categoria_promedio.values,
+                    title="💰 Sueldo Promedio por Categoría de Organismo",
+                    labels={'x': 'Categoría', 'y': 'Sueldo Promedio ($)'}
+                )
+                fig_categoria.update_layout(xaxis_tickangle=45, height=400)
+                st.plotly_chart(fig_categoria, use_container_width=True)
+                
+                # Estadísticas por categoría
+                st.subheader("📊 Estadísticas por Categoría")
+                categoria_stats = df.groupby('categoria_organismo').agg({
+                    'sueldo_bruto': ['count', 'mean', 'median', 'std']
+                }).round(0)
+                categoria_stats.columns = ['Cantidad', 'Promedio', 'Mediana', 'Desv. Estándar']
+                st.dataframe(categoria_stats)
+            tab_index += 1
+        
+        with tab_objects[tab_index]:
             if 'estamento' in df.columns:
                 estamento_promedio = df.groupby('estamento')['sueldo_bruto'].mean().sort_values(ascending=False)
                 fig = px.bar(
@@ -288,7 +337,8 @@ def main():
                 fig.update_layout(height=400)
                 st.plotly_chart(fig, use_container_width=True)
         
-        with tab2:
+        tab_index += 1
+        with tab_objects[tab_index]:
             if 'organismo' in df.columns:
                 organismo_promedio = df.groupby('organismo')['sueldo_bruto'].mean().sort_values(ascending=False).head(10)
                 fig = px.bar(
@@ -302,7 +352,8 @@ def main():
                 fig.update_layout(xaxis_tickangle=45, height=400)
                 st.plotly_chart(fig, use_container_width=True)
         
-        with tab3:
+        tab_index += 1
+        with tab_objects[tab_index]:
             fig = px.histogram(
                 df,
                 x='sueldo_bruto',
@@ -314,7 +365,8 @@ def main():
             fig.update_layout(height=400)
             st.plotly_chart(fig, use_container_width=True)
         
-        with tab4:
+        tab_index += 1
+        with tab_objects[tab_index]:
             top_sueldos = df.nlargest(10, 'sueldo_bruto')[['organismo', 'estamento', 'sueldo_bruto']]
             fig = px.bar(
                 top_sueldos,
