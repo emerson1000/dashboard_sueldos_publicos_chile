@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: .
+    container_name: transparencia-dashboard
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    depends_on:
+      - scheduler
+
+  scheduler:
+    build: .
+    container_name: transparencia-scheduler
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./cron:/app/cron
+    environment:
+      - PYTHONUNBUFFERED=1
+      # Configuración de email para alertas (opcional)
+      - SMTP_SERVER=${SMTP_SERVER:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - FROM_EMAIL=${FROM_EMAIL:-}
+      - TO_EMAIL=${TO_EMAIL:-}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD:-}
+    entrypoint: /bin/bash -c "
+      # Iniciar cron
+      service cron start
+      
+      # Ejecutar pipeline inicial
+      echo 'Ejecutando pipeline inicial...'
+      /app/cron/update.sh
+      
+      # Mantener el contenedor corriendo y ejecutar pipeline cada 30 días
+      while true; do
+        echo 'Esperando 30 días para próxima ejecución...'
+        sleep 2592000
+        echo 'Ejecutando pipeline programado...'
+        /app/cron/update.sh
+      done
+    "
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "etl/monitor.py"]
+      interval: 1h
+      timeout: 30s
+      retries: 2
+      start_period: 5m
+
+  # Servicio opcional para monitoreo con Prometheus/Grafana
+  monitoring:
+    image: prom/prometheus:latest
+    container_name: transparencia-monitoring
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+    profiles:
+      - monitoring
+
+volumes:
+  prometheus_data:

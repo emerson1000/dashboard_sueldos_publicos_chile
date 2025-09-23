@@ -1,0 +1,922 @@
+organismo,nombre,cargo,grado,estamento,sueldo_bruto,fuente,archivo_origen,fecha_procesamiento
+SII - Escala Oficial,,Directivo Grado 2,2,Directivo,6358918.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 4,4,Directivo,5603864.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 5,5,Directivo,5328191.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 6,6,Directivo,4983345.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 7,7,Directivo,4742765.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 8,8,Directivo,4434419.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 9,9,Directivo,4173512.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 10,10,Directivo,3928829.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 11,11,Directivo,3517872.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 12,12,Directivo,3102429.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Directivo Grado 15,15,Directivo,2166267.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 5,5,Profesional,5328191.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 6,6,Profesional,4983345.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 7,7,Profesional,4742765.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 8,8,Profesional,4350819.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 9,9,Profesional,4095593.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 10,10,Profesional,3855644.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 11,11,Profesional,3386071.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 12,12,Profesional,2985993.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 13,13,Profesional,2602630.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 14,14,Profesional,2307359.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 15,15,Profesional,2004018.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Profesional Grado 16,16,Profesional,1763382.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Fiscalizador Grado 9,9,Fiscalizador,4173512.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Fiscalizador Grado 10,10,Fiscalizador,3928829.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Fiscalizador Grado 11,11,Fiscalizador,3517872.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Fiscalizador Grado 12,12,Fiscalizador,3044211.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Fiscalizador Grado 13,13,Fiscalizador,2705497.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Fiscalizador Grado 14,14,Fiscalizador,2383499.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Fiscalizador Grado 15,15,Fiscalizador,2085142.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Técnico Grado 14,14,Técnico,2353043.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Técnico Grado 15,15,Técnico,2085142.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Técnico Grado 16,16,Técnico,1834639.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Técnico Grado 17,17,Técnico,1402452.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Técnico Grado 18,18,Técnico,1203568.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Técnico Grado 19,19,Técnico,991959.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Administrativo Grado 16,16,Administrativo,1763382.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Administrativo Grado 17,17,Administrativo,1383691.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Administrativo Grado 18,18,Administrativo,1179166.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Administrativo Grado 19,19,Administrativo,968307.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Administrativo Grado 20,20,Administrativo,801838.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Administrativo Grado 21,21,Administrativo,659267.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Administrativo Grado 22,22,Administrativo,552028.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Auxiliar Grado 19,19,Auxiliar,968307.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Auxiliar Grado 20,20,Auxiliar,801838.0,sii,escala.csv,2025-09-23 18:12:20
+SII - Escala Oficial,,Auxiliar Grado 21,21,Auxiliar,659267.0,sii,escala.csv,2025-09-23 18:12:20
+Servicio Nacional de Turismo,Isabel García,Director,1,Directivo,7039248.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Carlos González,Subdirector,1,Directivo,7444890.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Carlos Sánchez,Jefe de Departamento,1,Directivo,6384790.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Carmen Pérez,Subdirector,2,Directivo,6286610.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,María Rodríguez,Director,2,Directivo,6483727.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Elena Sánchez,Subdirector,2,Directivo,6328642.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Pedro García,Subdirector,2,Directivo,6867407.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,María Torres,Subdirector,2,Directivo,6563188.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Pedro Sánchez,Jefe de Departamento,2,Directivo,6999856.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Juan Torres,Subdirector,2,Directivo,6024956.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Miguel Ramírez,Jefe de División,2,Directivo,7252785.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Carmen Ramírez,Jefe de División,2,Directivo,6114299.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Carlos García,Coordinador,2,Directivo,5857740.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Juan Hernández,Coordinador,2,Directivo,6740568.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Elena Ramírez,Jefe de Departamento,2,Directivo,6018987.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Isabel Martínez,Subdirector,2,Directivo,6082915.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Luis Sánchez,Jefe de División,2,Directivo,5585502.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Ana Torres,Subdirector,2,Directivo,6617937.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Ana García,Jefe de División,4,Directivo,5438858.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Carlos González,Subdirector,4,Directivo,5874273.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Luis Sánchez,Subdirector,4,Directivo,5405321.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Juan Sánchez,Jefe de División,4,Directivo,6035995.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,María Sánchez,Coordinador,4,Directivo,6371274.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Pedro Hernández,Jefe de División,4,Directivo,5240470.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Luis Torres,Subdirector,4,Directivo,5552763.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,María Rodríguez,Director,4,Directivo,5262680.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Carmen López,Director,4,Directivo,5573149.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Juan Ramírez,Jefe de División,5,Directivo,5861207.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Isabel Sánchez,Jefe de Departamento,5,Directivo,5263530.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Juan López,Subdirector,5,Directivo,4926418.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Elena López,Director,5,Directivo,5005939.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Elena Hernández,Coordinador,5,Directivo,5193062.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Pedro Torres,Jefe de Departamento,5,Directivo,5075272.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Carmen Torres,Jefe de Departamento,5,Directivo,5529715.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Isabel Martínez,Subdirector,5,Directivo,5261960.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Elena Ramírez,Subdirector,5,Directivo,5668720.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Ana Ramírez,Jefe de Departamento,5,Directivo,5009265.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Elena González,Jefe de Departamento,5,Directivo,5298404.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Carmen Martínez,Jefe de Departamento,5,Directivo,5818849.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Carlos García,Director,6,Directivo,5701922.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Elena Torres,Jefe de Departamento,6,Directivo,5208437.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Carlos López,Jefe de Departamento,6,Directivo,4637824.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Ana Ramírez,Jefe de Departamento,6,Directivo,5481974.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Carmen Martínez,Coordinador,6,Directivo,5003272.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Carmen García,Jefe de División,6,Directivo,4102189.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Carlos López,Subdirector,6,Directivo,5132005.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Luis Hernández,Jefe de Departamento,6,Directivo,5144676.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Miguel González,Jefe de Departamento,6,Directivo,4912654.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Ana Pérez,Jefe de Departamento,6,Directivo,5181394.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Isabel Martínez,Coordinador,6,Directivo,4619778.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Juan Ramírez,Subdirector,6,Directivo,4552625.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Miguel López,Director,6,Directivo,4878662.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Miguel Ramírez,Jefe de División,7,Directivo,5267298.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Luis López,Coordinador,7,Directivo,5088438.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Juan Torres,Coordinador,7,Directivo,5038049.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Miguel Martínez,Coordinador,7,Directivo,4669708.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,María Hernández,Jefe de Departamento,7,Directivo,5230445.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Pedro Ramírez,Coordinador,7,Directivo,4143280.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,María Rodríguez,Subdirector,8,Directivo,4569455.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,María López,Jefe de División,8,Directivo,3821522.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,María Torres,Coordinador,8,Directivo,4264889.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,María Rodríguez,Coordinador,8,Directivo,4567640.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Carlos Pérez,Director,8,Directivo,3809460.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Juan Rodríguez,Coordinador,8,Directivo,4388728.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Isabel López,Jefe de Departamento,8,Directivo,4322635.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Elena López,Jefe de Departamento,8,Directivo,4482963.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Luis García,Subdirector,8,Directivo,4649028.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Isabel Martínez,Subdirector,8,Directivo,4666737.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,María Rodríguez,Jefe de Departamento,9,Directivo,4384147.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Carlos López,Coordinador,9,Directivo,4009351.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Carlos López,Subdirector,9,Directivo,4669790.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Ana Torres,Subdirector,9,Directivo,3863261.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,María Ramírez,Director,9,Directivo,4147303.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Carmen Martínez,Jefe de Departamento,9,Directivo,4540623.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Ana Martínez,Coordinador,10,Directivo,3967300.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Luis Ramírez,Jefe de División,10,Directivo,3844797.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Elena Sánchez,Jefe de División,10,Directivo,3983593.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Pedro Rodríguez,Director,10,Directivo,3770169.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Isabel García,Jefe de División,10,Directivo,3498022.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Elena Rodríguez,Director,11,Directivo,3225088.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Pedro Ramírez,Jefe de División,11,Directivo,3123602.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Isabel López,Subdirector,11,Directivo,3805229.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Miguel García,Jefe de División,11,Directivo,3921790.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,Miguel González,Jefe de Departamento,11,Directivo,3183273.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Ana Ramírez,Director,11,Directivo,4146885.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Luis Ramírez,Subdirector,11,Directivo,3192941.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Isabel García,Jefe de División,11,Directivo,3902176.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Isabel López,Subdirector,11,Directivo,3670748.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Miguel Hernández,Jefe de División,11,Directivo,3638177.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Juan Pérez,Jefe de Departamento,11,Directivo,3557365.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Juan García,Director,11,Directivo,3579354.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Miguel Ramírez,Jefe de Departamento,11,Directivo,3471123.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Pedro López,Director,11,Directivo,3089545.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Elena González,Coordinador,12,Directivo,3083969.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Luis García,Coordinador,12,Directivo,3134157.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Juan López,Jefe de Departamento,12,Directivo,3482496.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Carmen González,Director,12,Directivo,3255023.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Luis Ramírez,Jefe de División,12,Directivo,3281735.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Isabel López,Coordinador,12,Directivo,2638740.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Carlos Torres,Subdirector,12,Directivo,2920358.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Isabel López,Director,12,Directivo,3637031.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Luis Ramírez,Director,12,Directivo,3043424.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Isabel Sánchez,Jefe de División,12,Directivo,3187361.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,María Sánchez,Jefe de División,12,Directivo,2948280.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,María Martínez,Jefe de Departamento,12,Directivo,3231136.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Pedro López,Subdirector,12,Directivo,3300482.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Ana Sánchez,Jefe de Departamento,15,Directivo,1890471.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Elena García,Subdirector,15,Directivo,2218762.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Isabel Rodríguez,Director,15,Directivo,2332766.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Juan López,Coordinador,15,Directivo,2043695.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,María Torres,Jefe de Departamento,15,Directivo,2305228.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Juan García,Subdirector,15,Directivo,2260223.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Miguel Hernández,Jefe de División,15,Directivo,2016804.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Ana López,Jefe de División,15,Directivo,1932714.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,María Hernández,Profesional,5,Profesional,4816413.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,María García,Profesional,5,Profesional,5674746.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Juan Pérez,Profesional,5,Profesional,5123521.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Ana González,Analista,5,Profesional,5848045.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Miguel Martínez,Asesor,5,Profesional,4546340.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Carmen Sánchez,Especialista,5,Profesional,5364660.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Miguel Rodríguez,Analista,5,Profesional,5350797.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,María García,Profesional,5,Profesional,4667937.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Luis González,Especialista,5,Profesional,5475902.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,María Rodríguez,Profesional,5,Profesional,5807860.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Ana Torres,Especialista,5,Profesional,5403862.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Juan Hernández,Consultor,5,Profesional,5844938.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Juan Ramírez,Profesional,5,Profesional,5177364.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Ana Ramírez,Asesor,5,Profesional,4728839.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Ana Sánchez,Consultor,5,Profesional,5913814.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Miguel Martínez,Consultor,5,Profesional,5490453.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Isabel García,Consultor,5,Profesional,5792445.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Carlos López,Consultor,5,Profesional,4685902.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Elena Martínez,Especialista,5,Profesional,4290127.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Juan Torres,Especialista,5,Profesional,6064729.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Isabel Pérez,Consultor,5,Profesional,6008808.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Ana Torres,Profesional,5,Profesional,4771307.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Luis Pérez,Consultor,5,Profesional,4751400.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Luis Sánchez,Consultor,5,Profesional,5042526.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Pedro Torres,Asesor,5,Profesional,5744939.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Isabel Torres,Profesional,5,Profesional,4816218.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Elena González,Consultor,6,Profesional,4566022.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Carlos González,Especialista,6,Profesional,5044267.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Juan Sánchez,Analista,6,Profesional,4320406.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Miguel Pérez,Profesional,6,Profesional,4073848.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Elena Pérez,Analista,6,Profesional,4766701.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Ana Torres,Profesional,6,Profesional,4363702.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Juan González,Consultor,6,Profesional,4537978.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Juan Torres,Asesor,6,Profesional,5066534.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Luis García,Asesor,6,Profesional,4796416.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Elena Pérez,Analista,6,Profesional,4675984.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Elena López,Asesor,6,Profesional,5016996.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,María Rodríguez,Asesor,6,Profesional,5570029.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Elena González,Analista,6,Profesional,4293320.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Ana Ramírez,Consultor,6,Profesional,5352103.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Carmen Ramírez,Profesional,6,Profesional,4304231.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Carlos Rodríguez,Asesor,6,Profesional,6140647.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Juan García,Analista,6,Profesional,4656535.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Juan García,Analista,6,Profesional,4648424.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Carmen López,Especialista,6,Profesional,4507224.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Isabel Pérez,Analista,6,Profesional,5740667.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Miguel Hernández,Especialista,6,Profesional,5033974.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Pedro Torres,Profesional,6,Profesional,4843762.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,María García,Analista,6,Profesional,5495912.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Ana Pérez,Profesional,6,Profesional,5027438.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Carlos Martínez,Profesional,6,Profesional,5017969.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,María Ramírez,Consultor,6,Profesional,4432003.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Ana Martínez,Especialista,6,Profesional,5546077.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Ana Sánchez,Analista,6,Profesional,4423947.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Pedro González,Analista,6,Profesional,4672363.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Juan Hernández,Asesor,6,Profesional,4897798.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Ana González,Analista,6,Profesional,5547008.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Ana Hernández,Consultor,6,Profesional,4424232.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,Miguel Rodríguez,Analista,6,Profesional,5556735.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Juan García,Consultor,6,Profesional,4856373.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Carmen Ramírez,Consultor,6,Profesional,4287450.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carmen González,Asesor,6,Profesional,5625175.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Carmen Sánchez,Consultor,6,Profesional,4481708.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Isabel Ramírez,Analista,6,Profesional,4601681.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Juan Hernández,Profesional,6,Profesional,4584443.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Miguel Hernández,Consultor,6,Profesional,5111617.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Elena Martínez,Analista,7,Profesional,5094053.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Ana Pérez,Analista,7,Profesional,4432423.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Ana González,Analista,7,Profesional,4843094.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,Isabel Ramírez,Profesional,7,Profesional,4602602.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Carlos Sánchez,Especialista,7,Profesional,4771986.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Juan Hernández,Especialista,7,Profesional,4588035.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Isabel Ramírez,Especialista,7,Profesional,3624524.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Pedro Ramírez,Consultor,7,Profesional,4942740.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Ana Pérez,Profesional,7,Profesional,4725950.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Pedro Martínez,Especialista,7,Profesional,5323953.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Isabel González,Especialista,7,Profesional,5483617.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Carlos Torres,Analista,7,Profesional,5451778.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Isabel García,Asesor,7,Profesional,4803241.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Ana Pérez,Consultor,7,Profesional,4205800.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Miguel González,Profesional,7,Profesional,5207246.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Carmen Pérez,Especialista,7,Profesional,4753302.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,María García,Analista,7,Profesional,4874739.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Ana González,Especialista,7,Profesional,5622364.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Juan Torres,Asesor,7,Profesional,5111473.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Carmen Ramírez,Profesional,7,Profesional,4757771.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Isabel Pérez,Especialista,7,Profesional,4296506.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Carlos Martínez,Analista,7,Profesional,4128583.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,María Pérez,Especialista,8,Profesional,5134620.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,María Sánchez,Asesor,8,Profesional,4385738.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Ana Torres,Asesor,8,Profesional,3815111.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Carmen Hernández,Especialista,8,Profesional,3538357.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Carlos Ramírez,Especialista,8,Profesional,4364142.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Pedro Hernández,Asesor,8,Profesional,4160010.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Carmen Martínez,Consultor,8,Profesional,4251516.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carlos García,Analista,8,Profesional,5060299.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Elena Martínez,Analista,8,Profesional,4771558.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Ana Martínez,Profesional,8,Profesional,4680711.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carlos Ramírez,Asesor,8,Profesional,4527937.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Juan Sánchez,Profesional,8,Profesional,4868136.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Pedro Ramírez,Profesional,8,Profesional,3872527.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Carlos Rodríguez,Asesor,8,Profesional,3970052.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Elena Ramírez,Asesor,8,Profesional,4721251.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Miguel García,Analista,8,Profesional,4273499.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Isabel Ramírez,Profesional,8,Profesional,4629834.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Luis García,Asesor,8,Profesional,4006175.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Carlos Pérez,Analista,8,Profesional,4416328.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Isabel Ramírez,Asesor,8,Profesional,4619287.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Pedro Sánchez,Profesional,8,Profesional,4316344.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Carmen Rodríguez,Especialista,8,Profesional,4134163.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Pedro Rodríguez,Consultor,8,Profesional,4449118.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Luis García,Asesor,8,Profesional,3801132.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Carmen Rodríguez,Analista,8,Profesional,3793858.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Miguel Ramírez,Asesor,8,Profesional,4502561.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Carmen Sánchez,Profesional,8,Profesional,4210963.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,María Torres,Profesional,8,Profesional,4377367.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,María Ramírez,Consultor,8,Profesional,4366503.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Carlos Ramírez,Asesor,8,Profesional,4325953.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Elena Rodríguez,Analista,8,Profesional,4369629.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Juan Pérez,Consultor,8,Profesional,4642682.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Pedro Ramírez,Consultor,8,Profesional,4897016.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Miguel Torres,Profesional,8,Profesional,4840294.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Pedro Ramírez,Analista,8,Profesional,3808043.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Miguel Torres,Profesional,8,Profesional,4418396.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,María Hernández,Profesional,8,Profesional,4602395.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Miguel Pérez,Profesional,8,Profesional,4782316.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,María Hernández,Consultor,8,Profesional,4264205.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Juan Ramírez,Consultor,8,Profesional,4561041.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Isabel Pérez,Analista,8,Profesional,3962498.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Ana García,Asesor,8,Profesional,3533433.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Miguel Rodríguez,Analista,8,Profesional,3865857.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Pedro Hernández,Especialista,8,Profesional,4227642.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Luis Pérez,Asesor,8,Profesional,4164952.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Isabel Ramírez,Analista,8,Profesional,3848248.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Elena Pérez,Profesional,8,Profesional,4487916.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Juan Sánchez,Asesor,9,Profesional,3915084.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Isabel Ramírez,Analista,9,Profesional,4142855.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Juan García,Analista,9,Profesional,4183761.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Carlos Torres,Especialista,9,Profesional,3435386.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Carlos García,Analista,9,Profesional,4905702.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Juan Rodríguez,Analista,9,Profesional,4784982.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Pedro Hernández,Profesional,9,Profesional,3365950.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Miguel García,Asesor,9,Profesional,4320534.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Carmen González,Especialista,9,Profesional,3861841.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Luis Sánchez,Consultor,9,Profesional,3738939.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carmen López,Analista,9,Profesional,3588978.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Carlos Hernández,Especialista,9,Profesional,4289293.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Miguel Torres,Consultor,9,Profesional,3817691.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Carmen López,Especialista,9,Profesional,4079134.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,María Rodríguez,Especialista,9,Profesional,3829049.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Carmen García,Profesional,9,Profesional,4739332.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Pedro García,Consultor,9,Profesional,3561797.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Isabel Rodríguez,Especialista,9,Profesional,3580826.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Carlos Torres,Especialista,9,Profesional,4285827.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Luis Hernández,Analista,9,Profesional,4623877.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Elena García,Especialista,9,Profesional,4911667.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Luis López,Asesor,9,Profesional,4099605.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Carmen Hernández,Profesional,9,Profesional,3900640.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Pedro García,Analista,9,Profesional,4026874.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Elena González,Especialista,9,Profesional,3733492.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Luis Martínez,Asesor,9,Profesional,3777842.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Carmen López,Asesor,9,Profesional,4141551.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Elena Hernández,Consultor,9,Profesional,3561079.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,María Hernández,Consultor,9,Profesional,3448678.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Juan Hernández,Analista,9,Profesional,3584066.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Juan Rodríguez,Consultor,9,Profesional,3545252.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Elena Ramírez,Consultor,9,Profesional,4668912.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Miguel López,Consultor,9,Profesional,4614125.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Carlos Pérez,Profesional,9,Profesional,4554216.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Luis Torres,Consultor,9,Profesional,4214501.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Ana López,Especialista,9,Profesional,3421556.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Carlos López,Profesional,9,Profesional,4292809.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Isabel López,Asesor,9,Profesional,4494480.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Carlos Martínez,Profesional,9,Profesional,4476877.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Elena Rodríguez,Profesional,9,Profesional,4042966.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Carmen Hernández,Analista,9,Profesional,3677215.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Miguel Ramírez,Analista,9,Profesional,4565723.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Carmen Rodríguez,Profesional,9,Profesional,4168820.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Miguel García,Especialista,9,Profesional,4125149.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Juan Martínez,Profesional,10,Profesional,4381796.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Juan Pérez,Analista,10,Profesional,3780055.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Pedro Pérez,Consultor,10,Profesional,3836875.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Elena Martínez,Profesional,10,Profesional,3688047.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Isabel López,Especialista,10,Profesional,3902699.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Luis Pérez,Analista,10,Profesional,3226057.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Elena González,Analista,10,Profesional,4100351.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Carmen García,Especialista,10,Profesional,3932433.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,María Ramírez,Especialista,10,Profesional,4394986.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Carlos Rodríguez,Analista,10,Profesional,3496321.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Elena García,Asesor,10,Profesional,3624628.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,María Pérez,Analista,10,Profesional,4336192.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Miguel Torres,Profesional,10,Profesional,3675868.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Juan García,Consultor,10,Profesional,3593271.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Juan Hernández,Especialista,10,Profesional,4009623.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Elena López,Especialista,10,Profesional,4377571.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Pedro González,Especialista,10,Profesional,4258545.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Pedro Martínez,Profesional,10,Profesional,3243329.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,María Hernández,Analista,10,Profesional,4255829.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Miguel Hernández,Especialista,10,Profesional,4382531.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Miguel Hernández,Profesional,10,Profesional,3635752.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Carlos Martínez,Consultor,10,Profesional,3525271.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Ana Hernández,Profesional,10,Profesional,4518186.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Pedro Sánchez,Asesor,10,Profesional,4283060.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Elena González,Especialista,10,Profesional,4252881.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Juan Pérez,Analista,10,Profesional,4232375.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,María Ramírez,Consultor,10,Profesional,4262879.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,María González,Especialista,10,Profesional,4138259.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Elena Torres,Profesional,10,Profesional,3782218.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Isabel Sánchez,Profesional,10,Profesional,4560386.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Carlos Rodríguez,Asesor,10,Profesional,4366275.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Ana González,Asesor,10,Profesional,3525362.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Miguel Ramírez,Asesor,10,Profesional,3345979.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Pedro Rodríguez,Consultor,10,Profesional,3354630.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Miguel Sánchez,Profesional,10,Profesional,3760011.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Luis Rodríguez,Analista,10,Profesional,3513984.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Luis González,Profesional,10,Profesional,3695535.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Carmen López,Consultor,10,Profesional,3782705.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Carmen Hernández,Asesor,10,Profesional,4148780.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Isabel Hernández,Profesional,10,Profesional,3634898.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,María Ramírez,Especialista,10,Profesional,3498303.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Juan González,Consultor,10,Profesional,3598272.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Carlos García,Profesional,10,Profesional,3699416.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Juan Hernández,Analista,10,Profesional,3496313.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Isabel Torres,Consultor,10,Profesional,3588862.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Ana Rodríguez,Profesional,10,Profesional,3456518.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Ana Martínez,Analista,10,Profesional,3305236.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Luis Sánchez,Analista,10,Profesional,3607500.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Ana García,Analista,11,Profesional,3019646.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Pedro Ramírez,Analista,11,Profesional,3339420.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,María López,Profesional,11,Profesional,3502078.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Carmen Torres,Profesional,11,Profesional,3375937.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Carmen Ramírez,Especialista,11,Profesional,3796778.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Carlos Rodríguez,Analista,11,Profesional,2996235.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Carmen López,Especialista,11,Profesional,3042727.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Ana Pérez,Especialista,11,Profesional,3579402.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Pedro Ramírez,Analista,11,Profesional,3739884.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Luis Torres,Especialista,11,Profesional,3137415.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Ana Martínez,Asesor,11,Profesional,3388753.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Pedro Sánchez,Profesional,11,Profesional,3529256.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Ana Torres,Asesor,11,Profesional,3095864.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Isabel Pérez,Analista,11,Profesional,3486360.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,Luis López,Especialista,11,Profesional,3163138.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Carmen Hernández,Profesional,11,Profesional,3481427.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Isabel Pérez,Especialista,11,Profesional,3806368.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Carmen Ramírez,Profesional,11,Profesional,3889392.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Isabel Torres,Especialista,11,Profesional,3814194.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Pedro García,Profesional,11,Profesional,3376703.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Carmen González,Profesional,11,Profesional,3602077.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,María Torres,Consultor,11,Profesional,3372434.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Isabel Rodríguez,Profesional,11,Profesional,3498277.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Miguel Sánchez,Consultor,11,Profesional,4081156.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Pedro López,Especialista,11,Profesional,3717786.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Isabel Hernández,Especialista,11,Profesional,3036271.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Miguel Pérez,Consultor,12,Profesional,3063626.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Pedro Hernández,Profesional,12,Profesional,2850056.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Ana González,Analista,12,Profesional,3479857.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Carmen Hernández,Analista,12,Profesional,3019551.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Luis Rodríguez,Analista,12,Profesional,3638059.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Ana Sánchez,Analista,12,Profesional,2957306.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Pedro Torres,Profesional,12,Profesional,3008551.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,María Martínez,Profesional,12,Profesional,3056125.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Elena Rodríguez,Consultor,12,Profesional,2838104.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Carlos García,Asesor,12,Profesional,2950225.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Ana Sánchez,Consultor,12,Profesional,3339385.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,María Ramírez,Asesor,12,Profesional,2765001.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Carmen Hernández,Profesional,12,Profesional,2895549.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Luis Sánchez,Asesor,12,Profesional,3036608.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carmen Hernández,Consultor,12,Profesional,3499397.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Miguel Rodríguez,Especialista,12,Profesional,2775293.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Miguel Sánchez,Analista,12,Profesional,2715218.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Isabel Rodríguez,Analista,12,Profesional,2911898.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Isabel Pérez,Profesional,12,Profesional,2740960.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Carlos Martínez,Asesor,12,Profesional,2586033.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Miguel García,Analista,12,Profesional,2898008.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Carlos García,Asesor,12,Profesional,2825810.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,María Rodríguez,Profesional,12,Profesional,2818822.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Elena Ramírez,Analista,12,Profesional,3432049.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,Pedro Rodríguez,Analista,12,Profesional,3428917.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Luis García,Profesional,12,Profesional,2985550.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Isabel Pérez,Asesor,12,Profesional,3318503.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Ana Martínez,Profesional,12,Profesional,2779817.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Carlos Hernández,Profesional,12,Profesional,2903619.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Ana López,Consultor,12,Profesional,3225968.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Juan Hernández,Profesional,12,Profesional,2711901.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,María Pérez,Especialista,12,Profesional,3359407.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Carmen López,Especialista,12,Profesional,3304744.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Ana Hernández,Analista,12,Profesional,3096107.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Carmen Pérez,Asesor,12,Profesional,2421440.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Pedro Hernández,Analista,12,Profesional,2820176.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Juan García,Analista,12,Profesional,2729739.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Carmen Hernández,Asesor,12,Profesional,2628628.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Carlos Torres,Analista,12,Profesional,3442306.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Isabel Martínez,Profesional,13,Profesional,2741447.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,María García,Consultor,13,Profesional,2678118.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Pedro Martínez,Profesional,13,Profesional,2680033.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Carlos Torres,Profesional,13,Profesional,2569900.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Juan García,Asesor,13,Profesional,2285438.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Miguel Ramírez,Analista,13,Profesional,2871115.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Isabel Torres,Especialista,13,Profesional,2805721.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Luis Pérez,Profesional,13,Profesional,2686412.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Isabel Ramírez,Especialista,13,Profesional,2129928.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Luis Torres,Consultor,13,Profesional,2455477.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Juan Pérez,Especialista,13,Profesional,2619252.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Luis García,Consultor,13,Profesional,2609199.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Isabel Rodríguez,Analista,13,Profesional,2173627.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Carmen Torres,Consultor,13,Profesional,2983670.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Carlos Rodríguez,Asesor,13,Profesional,2437037.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Elena Torres,Asesor,13,Profesional,2646768.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,María García,Analista,13,Profesional,2548868.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Luis Rodríguez,Especialista,13,Profesional,2829262.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Pedro Rodríguez,Consultor,13,Profesional,2224627.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,María Hernández,Especialista,13,Profesional,2607668.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Carmen García,Consultor,13,Profesional,2711705.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Carlos Rodríguez,Consultor,13,Profesional,2491184.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Elena Pérez,Asesor,14,Profesional,1945768.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Miguel Hernández,Asesor,14,Profesional,2305215.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Luis Pérez,Especialista,14,Profesional,2304008.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,María Ramírez,Profesional,14,Profesional,1961355.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Elena Martínez,Profesional,14,Profesional,2604559.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Luis López,Especialista,14,Profesional,1935359.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Isabel Pérez,Especialista,14,Profesional,2431246.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Carlos Sánchez,Asesor,14,Profesional,2390404.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Juan Rodríguez,Especialista,14,Profesional,2142866.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Miguel Hernández,Consultor,14,Profesional,1932229.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Miguel García,Analista,14,Profesional,2157027.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Miguel Sánchez,Profesional,14,Profesional,2261512.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Carmen Martínez,Analista,14,Profesional,2272072.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,María Pérez,Asesor,14,Profesional,2226181.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Ana Sánchez,Analista,14,Profesional,2009024.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Juan Rodríguez,Asesor,14,Profesional,2273261.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Luis Rodríguez,Analista,14,Profesional,2336344.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Carmen López,Asesor,14,Profesional,2223005.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Ana Ramírez,Especialista,14,Profesional,1880626.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Ana García,Consultor,14,Profesional,2131849.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,María Ramírez,Profesional,14,Profesional,2231278.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Ana Hernández,Analista,14,Profesional,2530622.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Elena Rodríguez,Asesor,14,Profesional,2060845.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Juan Hernández,Profesional,14,Profesional,2416892.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Pedro Ramírez,Especialista,14,Profesional,2204466.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Carlos Martínez,Especialista,14,Profesional,2171694.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Carlos López,Consultor,14,Profesional,2426332.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,María López,Asesor,14,Profesional,1870419.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Carmen Ramírez,Profesional,14,Profesional,2621502.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Carmen López,Analista,14,Profesional,2388601.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Isabel Martínez,Especialista,14,Profesional,2630314.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Ana Sánchez,Profesional,15,Profesional,1951713.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Juan García,Profesional,15,Profesional,1901085.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Ana Sánchez,Analista,15,Profesional,2117141.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Elena Rodríguez,Profesional,15,Profesional,2245048.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Luis Ramírez,Especialista,15,Profesional,2197496.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,María Rodríguez,Especialista,15,Profesional,2072615.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Luis López,Profesional,15,Profesional,2169586.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,María Torres,Analista,15,Profesional,2025888.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Carlos Martínez,Asesor,15,Profesional,2177543.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Elena Martínez,Consultor,15,Profesional,1952443.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Carlos Martínez,Profesional,15,Profesional,1948688.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Miguel Martínez,Consultor,15,Profesional,1928464.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Isabel Sánchez,Asesor,15,Profesional,1908814.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Miguel Rodríguez,Analista,15,Profesional,1875799.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Luis Sánchez,Especialista,15,Profesional,2132878.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Miguel Rodríguez,Consultor,15,Profesional,1785742.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Juan Sánchez,Asesor,15,Profesional,2154218.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Juan Rodríguez,Especialista,15,Profesional,2069396.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carmen González,Especialista,15,Profesional,1916601.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Juan Ramírez,Profesional,15,Profesional,2333861.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Pedro Torres,Consultor,15,Profesional,1894401.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Isabel Sánchez,Profesional,15,Profesional,2227441.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Luis González,Especialista,15,Profesional,2006300.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Luis Torres,Consultor,15,Profesional,2352229.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Isabel Sánchez,Consultor,15,Profesional,2001420.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Ana López,Especialista,15,Profesional,2281862.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Carmen García,Profesional,15,Profesional,2339729.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Ana Hernández,Asesor,15,Profesional,2016320.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Juan González,Asesor,15,Profesional,1836132.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Elena Hernández,Profesional,15,Profesional,1764418.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Elena Pérez,Profesional,15,Profesional,1939924.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Luis García,Consultor,15,Profesional,1823767.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Ana Torres,Especialista,15,Profesional,1760921.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Juan Pérez,Profesional,15,Profesional,1843619.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Luis Hernández,Asesor,15,Profesional,2202604.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Elena López,Profesional,15,Profesional,2182999.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Carmen Sánchez,Especialista,15,Profesional,2367787.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Isabel Ramírez,Analista,15,Profesional,1851899.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Juan Pérez,Analista,15,Profesional,2321415.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Isabel Ramírez,Analista,15,Profesional,1856256.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Miguel González,Asesor,15,Profesional,2239342.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Juan Rodríguez,Analista,15,Profesional,2084637.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Isabel González,Consultor,15,Profesional,2227136.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,María López,Asesor,15,Profesional,2186756.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Luis Pérez,Consultor,15,Profesional,1900117.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Pedro García,Especialista,16,Profesional,1608578.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Luis Hernández,Asesor,16,Profesional,1423495.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Ana López,Asesor,16,Profesional,1738590.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Carlos Rodríguez,Consultor,16,Profesional,1924870.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Miguel Rodríguez,Especialista,16,Profesional,1732195.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Ana Ramírez,Profesional,16,Profesional,2023593.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Carmen Ramírez,Consultor,16,Profesional,1711378.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Elena López,Analista,16,Profesional,1597343.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Pedro Pérez,Analista,16,Profesional,1509732.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Isabel García,Asesor,16,Profesional,1726450.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Carmen Hernández,Asesor,16,Profesional,1894699.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Miguel García,Profesional,16,Profesional,2012592.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Miguel Martínez,Asesor,16,Profesional,1460384.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Isabel Hernández,Consultor,16,Profesional,1975946.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Isabel Ramírez,Analista,16,Profesional,2078951.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Juan Hernández,Consultor,16,Profesional,1535013.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Elena Pérez,Asesor,16,Profesional,1696767.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Pedro Pérez,Analista,16,Profesional,1622802.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Pedro López,Asesor,16,Profesional,1488902.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Isabel Pérez,Especialista,16,Profesional,1818646.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Carlos Hernández,Consultor,16,Profesional,1574202.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Miguel González,Consultor,16,Profesional,1997420.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Pedro Martínez,Profesional,16,Profesional,1472173.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,María Martínez,Inspector,9,Fiscalizador,3870986.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Pedro Ramírez,Fiscalizador,9,Fiscalizador,4474705.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Pedro Pérez,Supervisor de Campo,9,Fiscalizador,3734654.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Juan Pérez,Supervisor de Campo,9,Fiscalizador,4667984.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Carmen Rodríguez,Supervisor de Campo,9,Fiscalizador,3839739.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Carmen González,Fiscalizador,9,Fiscalizador,3676690.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Ana Torres,Fiscalizador,9,Fiscalizador,3621272.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Miguel Martínez,Supervisor de Campo,9,Fiscalizador,3611109.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Luis Rodríguez,Inspector,10,Fiscalizador,3444502.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Miguel López,Supervisor de Campo,10,Fiscalizador,4297630.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Carmen Ramírez,Fiscalizador,10,Fiscalizador,3435619.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Miguel López,Fiscalizador,10,Fiscalizador,3917615.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Juan Ramírez,Fiscalizador,10,Fiscalizador,4263905.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Elena Torres,Supervisor de Campo,10,Fiscalizador,4223099.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Carlos Martínez,Fiscalizador,10,Fiscalizador,4157366.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,María García,Fiscalizador,10,Fiscalizador,4187889.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Miguel González,Inspector,10,Fiscalizador,3882171.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Carlos Sánchez,Fiscalizador,10,Fiscalizador,3352536.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Ana Sánchez,Inspector,10,Fiscalizador,4312457.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Isabel Martínez,Supervisor de Campo,10,Fiscalizador,3755468.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Carlos Martínez,Supervisor de Campo,11,Fiscalizador,3817009.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Isabel Rodríguez,Fiscalizador,11,Fiscalizador,3331644.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Carmen Hernández,Supervisor de Campo,11,Fiscalizador,3889810.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,María Martínez,Supervisor de Campo,11,Fiscalizador,3150438.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Elena Sánchez,Inspector,11,Fiscalizador,3171048.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,Ana Sánchez,Fiscalizador,11,Fiscalizador,4066962.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Isabel Sánchez,Inspector,11,Fiscalizador,3295270.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Isabel Hernández,Fiscalizador,11,Fiscalizador,3100765.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Ana Pérez,Supervisor de Campo,11,Fiscalizador,3125681.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Ana Torres,Fiscalizador,11,Fiscalizador,3697540.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Luis López,Fiscalizador,11,Fiscalizador,3205447.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Carlos López,Fiscalizador,11,Fiscalizador,3628440.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Juan González,Fiscalizador,11,Fiscalizador,3540376.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Elena Pérez,Inspector,11,Fiscalizador,3417524.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Pedro Hernández,Supervisor de Campo,11,Fiscalizador,2725252.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Luis Rodríguez,Inspector,12,Fiscalizador,2718985.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Luis Hernández,Inspector,12,Fiscalizador,3366562.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,María Torres,Inspector,12,Fiscalizador,3096720.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Isabel Pérez,Supervisor de Campo,12,Fiscalizador,2832992.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Juan Sánchez,Fiscalizador,12,Fiscalizador,2877659.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Luis Torres,Inspector,12,Fiscalizador,3379790.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Isabel Sánchez,Supervisor de Campo,12,Fiscalizador,3075539.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Isabel Rodríguez,Inspector,12,Fiscalizador,3079773.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Ana Ramírez,Supervisor de Campo,12,Fiscalizador,3486288.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Carmen Sánchez,Inspector,12,Fiscalizador,2869165.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Elena Torres,Fiscalizador,12,Fiscalizador,2974597.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Isabel Torres,Supervisor de Campo,12,Fiscalizador,2792664.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Juan Rodríguez,Inspector,12,Fiscalizador,3209475.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Elena Ramírez,Fiscalizador,12,Fiscalizador,3304958.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,María Sánchez,Supervisor de Campo,12,Fiscalizador,3291077.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Luis García,Supervisor de Campo,12,Fiscalizador,2938216.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Carmen Hernández,Inspector,12,Fiscalizador,2958342.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Miguel González,Supervisor de Campo,13,Fiscalizador,2598642.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,María Ramírez,Supervisor de Campo,13,Fiscalizador,2426220.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Miguel Sánchez,Fiscalizador,13,Fiscalizador,2753989.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Juan López,Fiscalizador,13,Fiscalizador,2468701.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,María Ramírez,Fiscalizador,13,Fiscalizador,2774365.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Juan García,Fiscalizador,13,Fiscalizador,2530050.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Elena González,Fiscalizador,13,Fiscalizador,2907341.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Miguel Torres,Fiscalizador,13,Fiscalizador,3039723.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,María López,Inspector,13,Fiscalizador,2610564.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Pedro Rodríguez,Fiscalizador,14,Fiscalizador,2505192.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Isabel Rodríguez,Fiscalizador,14,Fiscalizador,2288095.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,María Torres,Supervisor de Campo,14,Fiscalizador,2466266.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Miguel Hernández,Fiscalizador,14,Fiscalizador,2728502.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Carmen López,Fiscalizador,14,Fiscalizador,1982868.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Carmen García,Inspector,14,Fiscalizador,2440190.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Juan Pérez,Inspector,14,Fiscalizador,2839972.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Juan Sánchez,Supervisor de Campo,14,Fiscalizador,2066634.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Pedro Ramírez,Inspector,14,Fiscalizador,2611539.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Miguel González,Fiscalizador,14,Fiscalizador,2405045.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Carlos Sánchez,Inspector,14,Fiscalizador,2020035.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,María Martínez,Supervisor de Campo,14,Fiscalizador,2720727.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Juan Pérez,Supervisor de Campo,14,Fiscalizador,2211622.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Isabel Sánchez,Inspector,15,Fiscalizador,2112434.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Pedro Martínez,Supervisor de Campo,15,Fiscalizador,2446671.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Carlos Hernández,Inspector,15,Fiscalizador,2193192.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Ana García,Fiscalizador,15,Fiscalizador,2358963.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Pedro Torres,Fiscalizador,15,Fiscalizador,2395418.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Carmen Hernández,Fiscalizador,15,Fiscalizador,2282128.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Ana Ramírez,Fiscalizador,15,Fiscalizador,1951795.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Isabel Torres,Supervisor de Campo,15,Fiscalizador,1877860.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Miguel López,Supervisor de Campo,15,Fiscalizador,2068986.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Isabel Pérez,Inspector,15,Fiscalizador,1936792.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Pedro Torres,Operador,14,Técnico,2835165.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Isabel López,Técnico,14,Técnico,2542848.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,María López,Coordinador Técnico,14,Técnico,2548068.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Isabel Martínez,Operador,14,Técnico,3139057.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Pedro Pérez,Coordinador Técnico,14,Técnico,2648738.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Pedro Pérez,Coordinador Técnico,14,Técnico,2634819.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Luis Martínez,Supervisor,14,Técnico,2044658.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Luis Torres,Supervisor,14,Técnico,2305976.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,María Pérez,Técnico,14,Técnico,2195397.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Ana Sánchez,Supervisor,14,Técnico,2728638.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Isabel Sánchez,Coordinador Técnico,14,Técnico,2370508.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Carlos García,Operador,14,Técnico,2070326.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Pedro Torres,Técnico,14,Técnico,2727425.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Luis Pérez,Coordinador Técnico,14,Técnico,2907044.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Juan López,Operador,14,Técnico,2640223.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Elena García,Operador,14,Técnico,2389278.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Carmen Rodríguez,Operador,14,Técnico,2283517.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Isabel López,Coordinador Técnico,14,Técnico,1896579.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Carlos Sánchez,Operador,14,Técnico,2621534.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Miguel Hernández,Técnico,14,Técnico,2077434.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Juan Pérez,Operador,14,Técnico,2196227.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Juan Pérez,Supervisor,14,Técnico,2177204.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Isabel Rodríguez,Supervisor,14,Técnico,2857069.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Miguel Rodríguez,Coordinador Técnico,15,Técnico,1742978.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Juan Rodríguez,Técnico,15,Técnico,2139244.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Juan Torres,Coordinador Técnico,15,Técnico,1590160.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Carlos Sánchez,Técnico,15,Técnico,2334520.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Elena Sánchez,Operador,15,Técnico,2322417.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Ana López,Operador,15,Técnico,2229321.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Elena López,Operador,15,Técnico,1980522.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Luis Sánchez,Coordinador Técnico,15,Técnico,1701597.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Isabel Pérez,Operador,15,Técnico,2325092.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Luis Torres,Coordinador Técnico,15,Técnico,2182187.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Juan Hernández,Técnico,15,Técnico,2001016.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Ana González,Operador,15,Técnico,2304261.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,María López,Técnico,15,Técnico,1976210.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Ana Martínez,Supervisor,15,Técnico,2064916.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Miguel Martínez,Supervisor,15,Técnico,1830226.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Pedro Sánchez,Operador,15,Técnico,1949597.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,Luis Ramírez,Supervisor,15,Técnico,2237757.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Carmen Sánchez,Técnico,15,Técnico,1801367.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Elena González,Técnico,16,Técnico,1568923.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Juan López,Operador,16,Técnico,1533764.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,María Ramírez,Coordinador Técnico,16,Técnico,2014672.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Miguel González,Técnico,16,Técnico,1656104.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,María Torres,Supervisor,16,Técnico,1579891.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Luis Sánchez,Coordinador Técnico,16,Técnico,1740776.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Ana Martínez,Supervisor,16,Técnico,2149815.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Isabel Ramírez,Operador,16,Técnico,2160409.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Carlos Martínez,Supervisor,16,Técnico,1762142.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Juan Rodríguez,Técnico,16,Técnico,1651602.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Luis Rodríguez,Supervisor,16,Técnico,2154620.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Miguel Hernández,Supervisor,16,Técnico,1971176.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Carlos García,Supervisor,16,Técnico,1857045.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Juan Rodríguez,Supervisor,16,Técnico,2131505.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Ana Ramírez,Técnico,16,Técnico,1659230.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Luis López,Coordinador Técnico,16,Técnico,2013410.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Luis Sánchez,Coordinador Técnico,16,Técnico,1906657.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Elena Torres,Técnico,16,Técnico,1808139.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Luis Ramírez,Coordinador Técnico,16,Técnico,1560830.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Isabel Pérez,Operador,16,Técnico,1611697.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Pedro González,Coordinador Técnico,16,Técnico,2211504.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Carlos García,Coordinador Técnico,16,Técnico,1884032.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Carmen Hernández,Coordinador Técnico,16,Técnico,1673671.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Carmen Pérez,Coordinador Técnico,16,Técnico,1783364.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Elena Torres,Operador,16,Técnico,1514017.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,María Pérez,Técnico,16,Técnico,2042917.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Carmen Hernández,Coordinador Técnico,16,Técnico,2074749.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Pedro Rodríguez,Operador,16,Técnico,1822816.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Carlos Pérez,Operador,16,Técnico,2161320.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Luis Torres,Técnico,16,Técnico,1875787.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Luis Rodríguez,Operador,16,Técnico,1602349.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Carmen Rodríguez,Técnico,16,Técnico,1755517.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Isabel Pérez,Operador,17,Técnico,1755633.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Carmen Pérez,Supervisor,17,Técnico,1492723.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Juan García,Supervisor,17,Técnico,1156580.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Carlos Rodríguez,Coordinador Técnico,17,Técnico,1450736.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Isabel García,Técnico,17,Técnico,1379526.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Juan Hernández,Supervisor,17,Técnico,1167528.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Defensa,Isabel González,Técnico,17,Técnico,1738111.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carlos Ramírez,Supervisor,17,Técnico,1154422.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Miguel García,Operador,17,Técnico,1669674.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,María Pérez,Supervisor,17,Técnico,1212016.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Isabel López,Supervisor,17,Técnico,1233331.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Carlos Ramírez,Técnico,17,Técnico,1621680.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Pedro Torres,Técnico,17,Técnico,1608692.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,María González,Técnico,17,Técnico,1332669.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Elena Hernández,Técnico,17,Técnico,1297758.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Juan Ramírez,Técnico,17,Técnico,1329556.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Carlos Torres,Operador,17,Técnico,1740685.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Registro Civil,Luis Sánchez,Técnico,17,Técnico,1138336.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Elena González,Operador,18,Técnico,1123178.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Elena Rodríguez,Supervisor,18,Técnico,1206878.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Ana González,Operador,18,Técnico,1369745.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,María González,Supervisor,18,Técnico,1012252.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,María García,Supervisor,18,Técnico,1177302.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Miguel Rodríguez,Técnico,18,Técnico,1017233.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Carlos Sánchez,Técnico,18,Técnico,975795.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Juan Pérez,Supervisor,18,Técnico,1184104.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Isabel Sánchez,Supervisor,18,Técnico,1482976.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Juan Torres,Operador,18,Técnico,1285259.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Isabel Martínez,Operador,18,Técnico,1440201.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Isabel Ramírez,Coordinador Técnico,18,Técnico,1269501.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Carmen García,Supervisor,18,Técnico,1056414.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Luis López,Coordinador Técnico,18,Técnico,1284862.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Pedro Pérez,Operador,18,Técnico,1164731.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Isabel Rodríguez,Técnico,18,Técnico,1280848.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Miguel González,Técnico,18,Técnico,1333713.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Isabel Rodríguez,Operador,18,Técnico,924758.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Elena García,Operador,18,Técnico,1031576.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Carlos Pérez,Supervisor,18,Técnico,1322804.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Elena García,Coordinador Técnico,18,Técnico,1411195.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,María Ramírez,Supervisor,18,Técnico,1014620.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,María Hernández,Técnico,18,Técnico,1191823.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Isabel Sánchez,Técnico,18,Técnico,1232311.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Luis Martínez,Técnico,18,Técnico,1061680.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Luis López,Técnico,18,Técnico,1389107.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,María Rodríguez,Supervisor,18,Técnico,1328967.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,María Martínez,Operador,18,Técnico,1425581.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Pedro Pérez,Supervisor,18,Técnico,978498.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Carlos García,Supervisor,18,Técnico,1097052.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Carlos Sánchez,Supervisor,18,Técnico,1395908.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Isabel Torres,Coordinador Técnico,18,Técnico,1062309.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Ana Hernández,Supervisor,18,Técnico,1365844.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,María Ramírez,Supervisor,18,Técnico,1123849.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Ana López,Técnico,19,Técnico,1053562.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Isabel García,Técnico,19,Técnico,1095365.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Juan Rodríguez,Supervisor,19,Técnico,894447.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Ana García,Operador,19,Técnico,1113395.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Pedro Sánchez,Coordinador Técnico,19,Técnico,857435.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Pedro Martínez,Operador,19,Técnico,853484.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Isabel Pérez,Técnico,19,Técnico,1158196.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,María Torres,Técnico,19,Técnico,883842.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Elena López,Operador,19,Técnico,1116509.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Agrícola y Ganadero,Isabel Martínez,Técnico,19,Técnico,730442.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Isabel López,Coordinador Técnico,19,Técnico,1219218.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Luis Pérez,Operador,19,Técnico,904932.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Carmen López,Coordinador Técnico,19,Técnico,785346.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Ana Sánchez,Supervisor,19,Técnico,1007018.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Carmen Ramírez,Operador,19,Técnico,850602.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Carlos Hernández,Supervisor,19,Técnico,1108174.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Miguel Ramírez,Técnico,19,Técnico,842428.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Carlos López,Operador,19,Técnico,1191669.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Elena Rodríguez,Supervisor,19,Técnico,972327.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Carlos Rodríguez,Operador,19,Técnico,894784.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carlos López,Supervisor,19,Técnico,1095873.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Carlos González,Administrativo,16,Administrativo,1868838.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Juan Rodríguez,Asistente,16,Administrativo,1440638.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Isabel Martínez,Administrativo,16,Administrativo,1692930.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Juan Torres,Administrativo,16,Administrativo,1924789.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Juan Sánchez,Administrativo,16,Administrativo,2072394.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de las Culturas,Juan García,Auxiliar,16,Administrativo,1776929.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Carlos López,Secretario,16,Administrativo,2178064.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Magallanes,Miguel Hernández,Auxiliar,16,Administrativo,1307704.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Isabel Martínez,Secretario,16,Administrativo,1718197.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Isabel Pérez,Administrativo,16,Administrativo,2008007.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Isabel Ramírez,Auxiliar,16,Administrativo,1566773.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Pedro Hernández,Auxiliar,16,Administrativo,2066564.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Carlos Pérez,Auxiliar,16,Administrativo,2237682.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Luis Torres,Secretario,17,Administrativo,1338655.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Ciencia,Miguel Torres,Auxiliar,17,Administrativo,1188160.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Luis Martínez,Auxiliar,17,Administrativo,1256477.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Ana Hernández,Secretario,17,Administrativo,1718327.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Pedro Hernández,Asistente,17,Administrativo,1641851.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,Pedro López,Asistente,17,Administrativo,1140235.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Isabel Torres,Auxiliar,17,Administrativo,1142556.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Juan López,Administrativo,17,Administrativo,1407804.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,Ana Pérez,Asistente,17,Administrativo,1621390.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Carmen García,Secretario,17,Administrativo,1442918.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Pedro Torres,Administrativo,17,Administrativo,1150107.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Miguel Hernández,Auxiliar,17,Administrativo,1458670.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,María Rodríguez,Asistente,17,Administrativo,1666727.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Carlos González,Secretario,17,Administrativo,1577230.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Miguel Ramírez,Administrativo,17,Administrativo,1348232.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional del Consumidor,Elena López,Auxiliar,17,Administrativo,1009247.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Elena González,Secretario,18,Administrativo,1163133.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Ríos,María Pérez,Administrativo,18,Administrativo,940571.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Arica y Parinacota,Carlos López,Administrativo,18,Administrativo,1112088.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Elena Hernández,Secretario,18,Administrativo,1455338.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Luis García,Administrativo,18,Administrativo,935648.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Ana Pérez,Asistente,18,Administrativo,1487794.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Pesca,Carlos García,Administrativo,18,Administrativo,1184342.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Luis Torres,Secretario,18,Administrativo,1120590.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Juan Rodríguez,Asistente,18,Administrativo,1409742.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Miguel García,Administrativo,18,Administrativo,1032805.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Isabel Martínez,Asistente,18,Administrativo,1359868.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Juan González,Administrativo,18,Administrativo,888804.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Miguel Rodríguez,Administrativo,18,Administrativo,1044741.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Ñuble,Carmen Sánchez,Asistente,18,Administrativo,1183416.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Luis López,Secretario,18,Administrativo,1251257.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Pedro Rodríguez,Auxiliar,19,Administrativo,834520.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Pedro González,Secretario,19,Administrativo,1152458.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Carmen González,Administrativo,19,Administrativo,910301.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Luis López,Administrativo,19,Administrativo,1015194.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Ana González,Asistente,19,Administrativo,1048265.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Isabel Pérez,Auxiliar,19,Administrativo,988905.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de La Araucanía,Pedro Sánchez,Administrativo,19,Administrativo,679658.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,Juan Pérez,Secretario,19,Administrativo,862096.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Miguel Hernández,Asistente,19,Administrativo,905179.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Bienes Nacionales,Juan Torres,Secretario,19,Administrativo,1101539.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Elena Ramírez,Asistente,19,Administrativo,908423.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Luis Sánchez,Secretario,20,Administrativo,630810.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Ana Rodríguez,Asistente,20,Administrativo,702828.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Ana Torres,Administrativo,20,Administrativo,763248.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Juan González,Administrativo,20,Administrativo,947744.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Pedro González,Secretario,20,Administrativo,650286.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Elena Pérez,Administrativo,20,Administrativo,876593.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Justicia,Carlos Torres,Auxiliar,20,Administrativo,678381.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Ana Sánchez,Secretario,20,Administrativo,671340.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Carlos Ramírez,Secretario,20,Administrativo,812959.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,Elena Sánchez,Administrativo,20,Administrativo,909641.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Pedro González,Administrativo,20,Administrativo,824355.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Luis Hernández,Administrativo,20,Administrativo,695130.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Miguel Pérez,Secretario,20,Administrativo,626258.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Carlos Rodríguez,Asistente,21,Administrativo,821841.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Carlos Martínez,Auxiliar,21,Administrativo,803624.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Juan Martínez,Administrativo,21,Administrativo,662528.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Juan González,Secretario,21,Administrativo,746546.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Elena González,Administrativo,21,Administrativo,555112.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Aduanas,Miguel Hernández,Asistente,21,Administrativo,562769.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Pedro Rodríguez,Administrativo,21,Administrativo,561910.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Ana Pérez,Auxiliar,21,Administrativo,606144.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Isabel García,Asistente,21,Administrativo,646984.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Turismo,Elena Torres,Auxiliar,21,Administrativo,622650.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Juan López,Secretario,21,Administrativo,719028.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Miguel Torres,Administrativo,22,Administrativo,701450.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Juan García,Secretario,22,Administrativo,646300.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Miguel Sánchez,Auxiliar,22,Administrativo,651474.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Ana Martínez,Secretario,22,Administrativo,644437.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Ana Torres,Administrativo,22,Administrativo,631244.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Transportes,Isabel López,Auxiliar,22,Administrativo,658209.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Los Lagos,Miguel González,Administrativo,22,Administrativo,721368.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Ana López,Asistente,22,Administrativo,697638.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Isabel Sánchez,Funcionario,19,Auxiliar,817660.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Juan López,Funcionario,19,Auxiliar,856949.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Capacitación,Carmen Pérez,Funcionario,19,Auxiliar,788425.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Presidencia de la República,Miguel Rodríguez,Funcionario,19,Auxiliar,1106258.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Juan Martínez,Funcionario,19,Auxiliar,1042624.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Carlos Torres,Funcionario,19,Auxiliar,1132182.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional del Biobío,María Sánchez,Funcionario,20,Auxiliar,727412.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,María Torres,Funcionario,20,Auxiliar,877146.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Educación,Luis Pérez,Funcionario,20,Auxiliar,981921.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Luis Martínez,Funcionario,20,Auxiliar,852377.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Minería,Carmen Martínez,Funcionario,20,Auxiliar,743169.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Luis García,Funcionario,20,Auxiliar,798880.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Luis García,Funcionario,20,Auxiliar,726461.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Menores,Pedro Ramírez,Funcionario,20,Auxiliar,916370.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Interior,Pedro Ramírez,Funcionario,20,Auxiliar,688277.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,María López,Funcionario,20,Auxiliar,702344.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Deporte,Carlos García,Funcionario,20,Auxiliar,788806.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio de Impuestos Internos,Pedro López,Funcionario,20,Auxiliar,664515.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Agricultura,Elena Ramírez,Funcionario,21,Auxiliar,616613.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Energía,Miguel Hernández,Funcionario,21,Auxiliar,778930.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Valparaíso,Isabel Martínez,Funcionario,21,Auxiliar,748435.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Vivienda,Elena Pérez,Funcionario,21,Auxiliar,598667.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Hacienda,Luis Torres,Funcionario,21,Auxiliar,735646.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de la Mujer,María Ramírez,Funcionario,21,Auxiliar,706257.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Servicio Nacional de Discapacidad,Ana Torres,Funcionario,21,Auxiliar,637722.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional de Aysén,Juan Torres,Funcionario,21,Auxiliar,794704.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Gobierno Regional Metropolitano,Isabel Ramírez,Funcionario,21,Auxiliar,591145.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Medio Ambiente,María Torres,Funcionario,21,Auxiliar,559560.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio del Trabajo,Carlos Martínez,Funcionario,21,Auxiliar,737063.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Obras Públicas,Miguel Ramírez,Funcionario,21,Auxiliar,617343.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18
+Ministerio de Salud,Carlos Hernández,Funcionario,21,Auxiliar,712978.0,sintetico_realista,generado_automaticamente,2025-09-23 18:11:18

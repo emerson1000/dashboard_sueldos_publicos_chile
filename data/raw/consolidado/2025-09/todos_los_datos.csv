@@ -1,0 +1,335 @@
+Estamento,Grado,Unidad Monetaria,Sueldo Base,Incremento DFL 3501,Asig. Fiscalización D.L.8 / 80,Asignación Ley 18.566 Artículo 3,Asignación Ley 18.675 Artículo 10,Asignación Ley 18.717 Artículo 4,DL 773 / 74,Asig. Direccion Superior Ley 19.863,Asig. Esp. Fija Ley 19.646,Bon. Asig. Especial Fija Ley 19.646,Reajuste General Ley 21.526,Remuneracion Bruta Mensualizada,archivo_origen,directorio_fuente,Sistema Remunetario,Año,Fecha de Actualización,Documento
+Directivo,1.0,Pesos,949.732,123.94,3.569.297,127.913,276.058,26.661,892.324,0.0,1.772.819,0.0,0.0,7.738.744,escala.csv,2025-09,,,,
+Directivo,2.0,Pesos,930.342,121.41,3.236.592,129.41,279.001,26.661,0.0,0.0,1.635.502,0.0,0.0,6.358.918,escala.csv,2025-09,,,,
+Directivo,4.0,Pesos,862.498,112.556,2.756.272,134.78,289.379,26.661,0.0,0.0,1.421.718,0.0,0.0,5.603.864,escala.csv,2025-09,,,,
+Directivo,5.0,Pesos,830.214,108.343,2.587.881,137.346,294.291,26.661,0.0,0.0,1.343.455,0.0,0.0,5.328.191,escala.csv,2025-09,,,,
+Directivo,6.0,Pesos,825.297,107.701,2.337.785,140.525,300.862,27.031,0.0,0.0,1.244.144,0.0,0.0,4.983.345,escala.csv,2025-09,,,,
+Directivo,7.0,Pesos,808.929,105.565,2.179.872,141.843,303.351,27.031,0.0,0.0,1.176.174,0.0,0.0,4.742.765,escala.csv,2025-09,,,,
+Directivo,8.0,Pesos,776.199,101.294,1.983.447,147.07,312.574,27.031,0.0,0.0,1.086.804,0.0,0.0,4.434.419,escala.csv,2025-09,,,,
+Directivo,9.0,Pesos,753.24,98.298,1.817.035,134.574,330.385,27.031,0.0,0.0,1.012.949,0.0,0.0,4.173.512,escala.csv,2025-09,,,,
+Directivo,10.0,Pesos,733.602,95.735,1.678.874,124.235,317.944,27.031,0.0,0.0,951.408,0.0,0.0,3.928.829,escala.csv,2025-09,,,,
+Directivo,11.0,Pesos,687.34,89.698,1.481.798,109.392,265.398,27.541,0.0,0.0,856.705,0.0,0.0,3.517.872,escala.csv,2025-09,,,,
+Directivo,12.0,Pesos,637.278,83.165,1.275.778,93.944,227.89,27.541,0.0,0.0,756.833,0.0,0.0,3.102.429,escala.csv,2025-09,,,,
+Directivo,15.0,Pesos,507.186,66.188,817.349,59.578,144.484,27.541,0.0,0.0,527.310,16.631,0.0,2.166.267,escala.csv,2025-09,,,,
+Profesional,5.0,Pesos,830.214,108.343,2.587.881,137.346,294.291,26.661,0.0,0.0,1.343.455,0.0,0.0,5.328.191,escala.csv,2025-09,,,,
+Profesional,6.0,Pesos,825.297,107.701,2.337.785,140.525,300.862,27.031,0.0,0.0,1.244.144,0.0,0.0,4.983.345,escala.csv,2025-09,,,,
+Profesional,7.0,Pesos,808.929,105.565,2.179.872,141.843,303.351,27.031,0.0,0.0,1.176.174,0.0,0.0,4.742.765,escala.csv,2025-09,,,,
+Profesional,8.0,Pesos,776.199,101.294,1.983.447,147.07,312.574,27.031,0.0,0.0,1.003.204,0.0,0.0,4.350.819,escala.csv,2025-09,,,,
+Profesional,9.0,Pesos,753.24,98.298,1.817.035,134.574,330.385,27.031,0.0,0.0,935.030,0.0,0.0,4.095.593,escala.csv,2025-09,,,,
+Profesional,10.0,Pesos,733.602,95.735,1.678.874,124.235,317.944,27.031,0.0,0.0,878.223,0.0,0.0,3.855.644,escala.csv,2025-09,,,,
+Profesional,11.0,Pesos,687.34,89.698,1.481.798,109.392,265.398,27.541,0.0,0.0,724.904,0.0,0.0,3.386.071,escala.csv,2025-09,,,,
+Profesional,12.0,Pesos,637.278,83.165,1.275.778,93.944,227.89,27.541,0.0,0.0,640.397,0.0,0.0,2.985.993,escala.csv,2025-09,,,,
+Profesional,13.0,Pesos,590.602,77.074,1.096.298,80.472,195.223,27.541,0.0,0.0,514.332,21.088,0.0,2.602.630,escala.csv,2025-09,,,,
+Profesional,14.0,Pesos,547.226,71.413,948.034,69.338,168.237,27.541,0.0,0.0,456.840,18.73,0.0,2.307.359,escala.csv,2025-09,,,,
+Profesional,15.0,Pesos,507.186,66.188,817.349,59.578,144.484,27.541,0.0,0.0,365.061,16.631,0.0,2.004.018,escala.csv,2025-09,,,,
+Profesional,16.0,Pesos,403.733,52.687,756.351,55.023,132.78,27.541,0.0,0.0,320.659,14.608,0.0,1.763.382,escala.csv,2025-09,,,,
+Fiscalizador,9.0,Pesos,753.24,98.298,1.817.035,134.574,330.385,27.031,0.0,0.0,1.012.949,0.0,0.0,4.173.512,escala.csv,2025-09,,,,
+Fiscalizador,10.0,Pesos,733.602,95.735,1.678.874,124.235,317.944,27.031,0.0,0.0,951.408,0.0,0.0,3.928.829,escala.csv,2025-09,,,,
+Fiscalizador,11.0,Pesos,687.34,89.698,1.481.798,109.392,265.398,27.541,0.0,0.0,856.705,0.0,0.0,3.517.872,escala.csv,2025-09,,,,
+Fiscalizador,12.0,Pesos,637.278,83.165,1.275.778,93.944,227.89,27.541,0.0,0.0,698.615,0.0,0.0,3.044.211,escala.csv,2025-09,,,,
+Fiscalizador,13.0,Pesos,590.602,77.074,1.096.298,80.472,195.223,27.541,0.0,0.0,617.199,21.088,0.0,2.705.497,escala.csv,2025-09,,,,
+Fiscalizador,14.0,Pesos,547.226,71.413,948.034,69.338,168.237,27.541,0.0,0.0,532.980,18.73,0.0,2.383.499,escala.csv,2025-09,,,,
+Fiscalizador,15.0,Pesos,507.186,66.188,817.349,59.578,144.484,27.541,0.0,0.0,446.185,16.631,0.0,2.085.142,escala.csv,2025-09,,,,
+Técnico,14.0,Pesos,547.226,71.413,948.034,69.338,168.237,27.541,0.0,0.0,502.524,18.73,0.0,2.353.043,escala.csv,2025-09,,,,
+Técnico,15.0,Pesos,507.186,66.188,817.349,59.578,144.484,27.541,0.0,0.0,446.185,16.631,0.0,2.085.142,escala.csv,2025-09,,,,
+Técnico,16.0,Pesos,403.733,52.687,756.351,55.023,132.78,27.541,0.0,0.0,391.916,14.608,0.0,1.834.639,escala.csv,2025-09,,,,
+Técnico,17.0,Pesos,373.698,48.768,536.813,38.556,93.503,27.541,0.0,0.0,272.035,11.538,0.0,1.402.452,escala.csv,2025-09,,,,
+Técnico,18.0,Pesos,343.651,44.846,380.232,28.279,71.151,89.518,0.0,0.0,235.886,10.005,0.0,1.203.568,escala.csv,2025-09,,,,
+Técnico,19.0,Pesos,320.336,41.804,255.971,19.724,50.383,99.457,0.0,0.0,195.972,8.312,0.0,991.959,escala.csv,2025-09,,,,
+Administrativo,16.0,Pesos,403.733,52.687,756.351,55.023,132.78,27.541,0.0,0.0,320.659,14.608,0.0,1.763.382,escala.csv,2025-09,,,,
+Administrativo,17.0,Pesos,373.698,48.768,536.813,38.556,93.503,27.541,0.0,0.0,253.274,11.538,0.0,1.383.691,escala.csv,2025-09,,,,
+Administrativo,18.0,Pesos,343.651,44.846,380.232,28.279,71.151,89.518,0.0,0.0,211.484,10.005,0.0,1.179.166,escala.csv,2025-09,,,,
+Administrativo,19.0,Pesos,320.336,41.804,255.971,19.724,50.383,99.457,0.0,0.0,172.320,8.312,0.0,968.307,escala.csv,2025-09,,,,
+Administrativo,20.0,Pesos,296.946,38.751,168.467,13.41,34.826,98.661,0.0,0.0,143.839,6.938,0.0,801.838,escala.csv,2025-09,,,,
+Administrativo,21.0,Pesos,276.943,36.141,101.038,8.434,22.231,89.518,0.0,0.0,119.212,5.75,0.0,659.267,escala.csv,2025-09,,,,
+Administrativo,22.0,Pesos,216.895,28.305,91.109,7.754,20.098,83.277,0.0,0.0,99.777,4.813,0.0,552.028,escala.csv,2025-09,,,,
+Auxiliar,19.0,Pesos,320.336,41.804,255.971,19.724,50.383,99.457,0.0,0.0,172.320,8.312,0.0,968.307,escala.csv,2025-09,,,,
+Auxiliar,20.0,Pesos,296.946,38.751,168.467,13.41,34.826,98.661,0.0,0.0,143.839,6.938,0.0,801.838,escala.csv,2025-09,,,,
+Auxiliar,21.0,Pesos,276.943,36.141,101.038,8.434,22.231,89.518,0.0,0.0,119.212,5.75,0.0,659.267,escala.csv,2025-09,,,,
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Montos zona extrema EUS y Fisc. (Dic. 2024 - Ene. y Jun. 2025),2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos - Junio 2025,2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos - Junio 2025,2025.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos - Enero 2025,2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos - Enero 2025,2025.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios - Junio 2025,2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios - Junio 2025,2025.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios - Enero 2025,2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios - Enero 2025,2025.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora - Junio 2025,2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora - Junio 2025,2025.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora - Enero 2025,2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora - Enero 2025,2025.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría - Junio 2025,2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría - Junio 2025,2025.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría - Enero 2025,2025.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría - Enero 2025,2025.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Montos zona extrema EUS y Fisc.,2024.0,Junio 2024 Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Montos zona extrema EUS y Fisc.,2024.0,Diciembre 2023 Ley N° 21.647 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos,2024.0,Junio 2024 Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos,2024.0,Junio 2024 (Excel) Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos,2024.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos - Diciembre 2024,2024.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos,2024.0,Diciembre 2023 Ley N° 21.647 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala única de sueldos,2024.0,Diciembre 2023 Ley N° 21.647,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios,2024.0,Junio 2024 Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios,2024.0,Junio 2024 (Excel) Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios - Diciembre 2024,2024.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios - Diciembre 2024,2024.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios,2024.0,Diciembre 2023 Ley N° 21.647 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala profesionales Funcionarios,2024.0,Diciembre 2023 Ley N° 21.647,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2024.0,Junio 2024 Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2024.0,Junio 2024 (Excel) Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora - Diciembre 2024,2024.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora - Diciembre 2024,2024.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2024.0,Diciembre 2023 Ley N° 21.647 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2024.0,Diciembre 2023 Ley N° 21.647,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría,2024.0,Junio 2024 Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría,2024.0,Junio 2024 (Excel) Decreto N° 608 del Ministerio de Hacienda,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría - Diciembre 2024,2024.0,diciembre 2024 ley N° 21.724 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría - Diciembre 2024,2024.0,diciembre 2024 ley N° 21.724,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría,2024.0,Diciembre 2023 Ley N° 21.647 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría,2024.0,Diciembre 2023 Ley N° 21.647,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Montos zona extrema EUS y Fisc.,2023.0,Diciembre 2022,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2023.0,Diciembre 2023 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2023.0,Diciembre 2023,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2023.0,Diciembre 2022 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2023.0,Diciembre 2022,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2023.0,Agosto 2023 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2023.0,Agosto 2023,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2023.0,Agosto y Diciembre 2023 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2023.0,Agosto y Diciembre 2023,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2023.0,Diciembre 2023 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2023.0,Diciembre 2023,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2023.0,Diciembre 2022 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2023.0,Diciembre 2022,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2023.0,Agosto 2023 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2023.0,Agosto 2023,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2023.0,Diciembre 2023 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2023.0,Diciembre 2023,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2023.0,Diciembre 2022 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2023.0,Diciembre 2022,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2023.0,Agosto 2023 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2023.0,Agosto 2023,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Montos zona extrema EUS y Fisc.,2022.0,Diciembre 2021,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2022.0,Diciembre 2021 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2022.0,Diciembre 2021,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2022.0,Diciembre 2021 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2022.0,Diciembre 2021,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2022.0,Diciembre 2021 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2022.0,Diciembre 2021,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2022.0,Diciembre 2021 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2022.0,Diciembre 2021,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Montos Zona Extrema,2021.0,Diciembre 2020 (excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2021.0,Diciembre 2020 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2021.0,Diciembre 2020,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2021.0,Diciembre 2020 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2021.0,Diciembre 2020,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2021.0,Diciembre 2020 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2021.0,Diciembre 2020,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2021.0,Diciembre 2020 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2021.0,Diciembre 2020,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Montos Zona Extrema,2020.0,Diciembre 2019,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2020.0,Diciembre 2019 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2020.0,Diciembre 2019,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2020.0,Diciembre 2019 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2020.0,Diciembre 2019,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2020.0,Diciembre 2019 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2020.0,Diciembre 2019,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2020.0,Diciembre 2019 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2020.0,Diciembre 2019,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2019.0,Diciembre 2018 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2019.0,Diciembre 2018,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2019.0,Diciembre 2018 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2019.0,Diciembre 2018,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2019.0,Diciembre 2018 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2019.0,Diciembre 2018,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2019.0,Diciembre 2018 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2019.0,Diciembre 2018,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,EUS Ley N° 19.803 art. 9ter,2018.0,Diciembre 2017 (CON MODERNIZACIÓN LEY 19803 ART. 9TER ANO 2018),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,EUS Ley N° 19.803 art. 9ter,2018.0,"Diciembre 2017 (CON MODERNIZACIÓN LEY 19803 ART. 9TER ANO 2018, Excel)",Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2018.0,Diciembre 2017 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2018.0,Diciembre 2017,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2018.0,Diciembre 2017 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2018.0,Diciembre 2017,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2018.0,Diciembre 2017 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2018.0,Diciembre 2017,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2018.0,Diciembre 2017 (Excel),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2018.0,Diciembre 2017,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,EUS Ley N° 19.803 art. 9ter,2017.0,Diciembre 2016 (Ley 19.803 Art. 9),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2017.0,Diciembre 2016,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios Médicos,2017.0,Diciembre 2017,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2017.0,Diciembre 2017,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2017.0,Diciembre 2016,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2016.0,Diciembre 2016 (Ley 19.803 Art. 9),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2016.0,Diciembre 2015,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2016.0,Diciembre 2015,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2016.0,Diciembre 2015,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2015.0,Diciembre 2015,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2015.0,Julio 2015 (Ingreso Mínimo),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2015.0,Diciembre 2015,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2015.0,Diciembre 2015,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2014.0,Junio 2014 (ingreso mínimo),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2014.0,Diciembre 2013,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2014.0,Diciembre 2014,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2014.0,Julio 2014 (Ingreso Mínimo),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2014.0,Diciembre 2012,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2014.0,Diciembre 2014,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2013.0,Julio 2013,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2013.0,Diciembre 2013,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2013.0,Diciembre 2013,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2013.0,Diciembre 2013,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2012.0,Diciembre 2012,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2012.0,Diciembre 2012,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2012.0,Diciembre 2012,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2012.0,Diciembre 2012,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2011.0,Diciembre 2011,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2011.0,Diciembre 2011,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2011.0,Diciembre 2011,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2011.0,Diciembre 2011,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2011.0,Diciembre 2011,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2010.0,Diciembre 2010,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2010.0,Diciembre 2010,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2010.0,Diciembre 2010,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2010.0,Diciembre 2010,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2010.0,Diciembre 2010,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2009.0,Diciembre 2009,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2009.0,Diciembre 2009,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2009.0,Diciembre 2009,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2009.0,Diciembre 2009,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2009.0,Enero 2009,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2009.0,Diciembre 2009,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2008.0,Diciembre 2008,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2008.0,Diciembre 2008,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2008.0,Diciembre 2008,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2008.0,Diciembre 2008,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2008.0,Enero 2008,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2008.0,Diciembre 2008,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2007.0,Diciembre 2007,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2007.0,Diciembre 2007,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2007.0,Diciembre 2007,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2007.0,Diciembre 2007,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2007.0,Enero 2007,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2007.0,Diciembre 2007,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2006.0,Diciembre 2006,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2006.0,Diciembre 2006,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2006.0,Diciembre 2006,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2006.0,Diciembre 2006,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2006.0,Diciembre 2006,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2005.0,Diciembre 2005,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2005.0,Diciembre 2005,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2005.0,Diciembre 2005,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2005.0,Diciembre 2005,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2005.0,Diciembre 2005,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2004.0,Diciembre 2004,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2004.0,Diciembre 2004,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2004.0,Diciembre 2004,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2004.0,Diciembre 2004,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2004.0,Enero 2004,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2004.0,Diciembre 2004,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2003.0,Diciembre 2003,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2003.0,Diciembre 2003,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2003.0,Diciembre 2003,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2003.0,Diciembre 2003,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2002.0,Diciembre 2002,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2002.0,Diciembre 2002,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2002.0,Diciembre 2002,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2002.0,Diciembre 2002,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2001.0,Diciembre 2001,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Profesionales Funcionarios,2001.0,Diciembre 2001,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2001.0,Enero 2001,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2001.0,Diciembre 2001,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2001.0,Diciembre 2001,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2001.0,Enero 2001,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2001.0,Diciembre 2001,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,2000.0,Diciembre 2000,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,2000.0,Enero 2000,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,2000.0,Diciembre 2000,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2000.0,Enero 2000,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,2000.0,Diciembre 2000,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1999.0,Diciembre 1999,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1999.0,Diciembre 1999,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1999.0,Diciembre 1999,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,1999.0,Diciembre 1999,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1998.0,Diciembre 1998,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1998.0,Enero 1998,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1998.0,Diciembre 1998,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,1998.0,Enero 1998,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Contraloría General,1998.0,Diciembre 1998,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1997.0,Diciembre 1997,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1997.0,Enero 1997,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1997.0,Diciembre 1997,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1996.0,Diciembre 1996,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1996.0,Diciembre 1996,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1996.0,Diciembre 1996,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1995.0,Diciembre 1995,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1995.0,Enero 1995,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1995.0,Diciembre 1995,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1995.0,Diciembre 1995,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1994.0,Diciembre 1994,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1994.0,Enero 1994,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1994.0,Diciembre 1994,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1994.0,Diciembre 1994,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1993.0,Diciembre 1993,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1993.0,Diciembre 1993,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1993.0,Diciembre 1993,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1992.0,Diciembre 1992,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1992.0,Noviembre 1992,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1992.0,Diciembre 1992,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1992.0,Diciembre 1992 (incluye Ley 19.041),Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1992.0,Diciembre 1992,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1991.0,Diciembre 1991,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1991.0,Mayo 1991,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1991.0,Diciembre 1991,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1991.0,Diciembre 1991,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1990.0,Diciembre 1990,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1990.0,Enero 1990,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1990.0,Enero 1990,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1990.0,Diciembre 1990,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1989.0,Febrero 1989,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1989.0,Diciembre 1989,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1989.0,Octubre 1989,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1989.0,Febrero 1989,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1989.0,Diciembre 1989,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1989.0,Febrero 1989,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1988.0,Junio 1988,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1988.0,Febrero 1988,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1988.0,Junio 1988,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1988.0,Enero 1988,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1988.0,Junio 1988,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1987.0,Septiembre 1987,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1987.0,Septiembre 1987,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1987.0,Septiembre 1987,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1986.0,Noviembre 1986,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1986.0,Noviembre 1986,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1986.0,Noviembre 1986,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1985.0,Enero 1985,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1985.0,Diciembre 1985,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1985.0,Enero 1985,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1985.0,Diciembre 1985,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1985.0,Enero 1985,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1984.0,Enero 1984,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1984.0,Noviembre 1984,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1983.0,Julio 1983,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1983.0,Julio 1983,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1981.0,Agosto 1981,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Fiscalizadora,1981.0,Agosto 1981,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1980.0,Octubre 1980,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1980.0,Enero 1980,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Poder Judicial,1980.0,Abril 1980,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1977.0,Mayo 1977,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1977.0,Marzo 1977,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1977.0,Julio 1977,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1977.0,Enero 1977,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1977.0,Diciembre 1977,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1976.0,Septiembre 1976,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1976.0,Marzo 1976,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1976.0,Junio 1976,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1976.0,Diciembre 1976,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1975.0,Septiembre 1975,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1975.0,Junio 1975,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1975.0,Diciembre 1975,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1974.0,Octubre 1974,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1974.0,Mayo 1974,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1974.0,Julio 1974,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1974.0,Enero 1974,Descargar Documento
+,,,,,,,,,,,,,,,tabla_0.csv,2025-09,Escala Única de Sueldos,1974.0,Diciembre 1974,Descargar Documento

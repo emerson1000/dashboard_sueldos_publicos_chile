@@ -1,0 +1,14 @@
+{
+  "fecha_carga": "2025-09-23 17:50:09",
+  "total_registros": 45,
+  "organismos_unicos": 1,
+  "estamentos_unicos": 1,
+  "grados_unicos": 1,
+  "fuentes_unicas": 1,
+  "promedio_sueldo": 2925347.7555555557,
+  "mediana_sueldo": 2705497.0,
+  "min_sueldo": 659267.0,
+  "max_sueldo": 6358918.0,
+  "desv_std": 1563099.5110350482,
+  "archivo_origen": "sueldos_consolidado.csv"
+}

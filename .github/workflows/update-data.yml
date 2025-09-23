@@ -1,0 +1,41 @@
+name: Actualizar Datos Mensuales
+
+on:
+  schedule:
+    # Ejecutar el primer día de cada mes a las 2:00 AM UTC
+    - cron: '0 2 1 * *'
+  workflow_dispatch: # Permite ejecutar manualmente
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+      
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Ejecutar ETL
+      run: |
+        python etl/extract_dipres.py
+        python etl/extract_sii.py
+        python etl/extract_contraloria.py
+        python etl/transform.py
+        python etl/load.py
+        
+    - name: Commit y push cambios
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git diff --staged --quiet || git commit -m "Actualización automática de datos - $(date)"
+        git push

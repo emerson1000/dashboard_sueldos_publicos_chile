@@ -1,0 +1,22 @@
+{
+  "https://www.dipres.gob.cl/598/articles-190248_recurso_1.xlsx": {
+    "sha256": "a18ff08bd25353410d5bff67afe388eac90b9de0c61ce97664fd1fbab327f8db",
+    "path": "C:\\Users\\emers\\OneDrive\\Desktop\\coursera\\transparencia_sueldos\\transparencia_sueldos\\data\\raw\\dipres\\2025-09\\articles-190248_recurso_1.xlsx"
+  },
+  "https://www.dipres.gob.cl/598/articles-190248_doc_18.xlsx": {
+    "sha256": "68d656f24b5cad97591d62c78131312955bb1c0135451f11998218639c6492d0",
+    "path": "C:\\Users\\emers\\OneDrive\\Desktop\\coursera\\transparencia_sueldos\\transparencia_sueldos\\data\\raw\\dipres\\2025-09\\articles-190248_doc_18.xlsx"
+  },
+  "https://www.dipres.gob.cl/598/articles-190248_doc_19.xlsx": {
+    "sha256": "eb303e93827651c0343b78267bceb7490157a33f5985520d3be4ec3ab098d6e7",
+    "path": "C:\\Users\\emers\\OneDrive\\Desktop\\coursera\\transparencia_sueldos\\transparencia_sueldos\\data\\raw\\dipres\\2025-09\\articles-190248_doc_19.xlsx"
+  },
+  "https://www.dipres.gob.cl/598/articles-190248_doc_20.xlsx": {
+    "sha256": "2a87329465c93e4ca049e493cc368c22babb936d1fc94ce287ed63825aa83a72",
+    "path": "C:\\Users\\emers\\OneDrive\\Desktop\\coursera\\transparencia_sueldos\\transparencia_sueldos\\data\\raw\\dipres\\2025-09\\articles-190248_doc_20.xlsx"
+  },
+  "https://www.dipres.gob.cl/598/articles-190248_doc_21.xlsx": {
+    "sha256": "9725868f188f534fe333aa65dc09caf19c4d9c9313ab06e2977c863d7090cbcc",
+    "path": "C:\\Users\\emers\\OneDrive\\Desktop\\coursera\\transparencia_sueldos\\transparencia_sueldos\\data\\raw\\dipres\\2025-09\\articles-190248_doc_21.xlsx"
+  }
+}

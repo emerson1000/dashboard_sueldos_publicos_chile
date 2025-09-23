@@ -1,0 +1,195 @@
+organismo,nombre,cargo,grado,estamento,sueldo_bruto,fuente,archivo_origen
+SII - Escala Oficial,,Directivo Grado 1,1.0,Directivo,7738744.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 2,2.0,Directivo,6358918.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 4,4.0,Directivo,5603864.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 5,5.0,Directivo,5328191.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 6,6.0,Directivo,4983345.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 7,7.0,Directivo,4742765.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 8,8.0,Directivo,4434419.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 9,9.0,Directivo,4173512.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 10,10.0,Directivo,3928829.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 11,11.0,Directivo,3517872.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 12,12.0,Directivo,3102429.0,sii_escala,escala.csv
+SII - Escala Oficial,,Directivo Grado 15,15.0,Directivo,2166267.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 5,5.0,Profesional,5328191.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 6,6.0,Profesional,4983345.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 7,7.0,Profesional,4742765.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 8,8.0,Profesional,4350819.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 9,9.0,Profesional,4095593.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 10,10.0,Profesional,3855644.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 11,11.0,Profesional,3386071.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 12,12.0,Profesional,2985993.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 13,13.0,Profesional,2602630.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 14,14.0,Profesional,2307359.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 15,15.0,Profesional,2004018.0,sii_escala,escala.csv
+SII - Escala Oficial,,Profesional Grado 16,16.0,Profesional,1763382.0,sii_escala,escala.csv
+SII - Escala Oficial,,Fiscalizador Grado 9,9.0,Fiscalizador,4173512.0,sii_escala,escala.csv
+SII - Escala Oficial,,Fiscalizador Grado 10,10.0,Fiscalizador,3928829.0,sii_escala,escala.csv
+SII - Escala Oficial,,Fiscalizador Grado 11,11.0,Fiscalizador,3517872.0,sii_escala,escala.csv
+SII - Escala Oficial,,Fiscalizador Grado 12,12.0,Fiscalizador,3044211.0,sii_escala,escala.csv
+SII - Escala Oficial,,Fiscalizador Grado 13,13.0,Fiscalizador,2705497.0,sii_escala,escala.csv
+SII - Escala Oficial,,Fiscalizador Grado 14,14.0,Fiscalizador,2383499.0,sii_escala,escala.csv
+SII - Escala Oficial,,Fiscalizador Grado 15,15.0,Fiscalizador,2085142.0,sii_escala,escala.csv
+SII - Escala Oficial,,Técnico Grado 14,14.0,Técnico,2353043.0,sii_escala,escala.csv
+SII - Escala Oficial,,Técnico Grado 15,15.0,Técnico,2085142.0,sii_escala,escala.csv
+SII - Escala Oficial,,Técnico Grado 16,16.0,Técnico,1834639.0,sii_escala,escala.csv
+SII - Escala Oficial,,Técnico Grado 17,17.0,Técnico,1402452.0,sii_escala,escala.csv
+SII - Escala Oficial,,Técnico Grado 18,18.0,Técnico,1203568.0,sii_escala,escala.csv
+SII - Escala Oficial,,Técnico Grado 19,19.0,Técnico,991959.0,sii_escala,escala.csv
+SII - Escala Oficial,,Administrativo Grado 16,16.0,Administrativo,1763382.0,sii_escala,escala.csv
+SII - Escala Oficial,,Administrativo Grado 17,17.0,Administrativo,1383691.0,sii_escala,escala.csv
+SII - Escala Oficial,,Administrativo Grado 18,18.0,Administrativo,1179166.0,sii_escala,escala.csv
+SII - Escala Oficial,,Administrativo Grado 19,19.0,Administrativo,968307.0,sii_escala,escala.csv
+SII - Escala Oficial,,Administrativo Grado 20,20.0,Administrativo,801838.0,sii_escala,escala.csv
+SII - Escala Oficial,,Administrativo Grado 21,21.0,Administrativo,659267.0,sii_escala,escala.csv
+SII - Escala Oficial,,Administrativo Grado 22,22.0,Administrativo,552028.0,sii_escala,escala.csv
+SII - Escala Oficial,,Auxiliar Grado 19,19.0,Auxiliar,968307.0,sii_escala,escala.csv
+SII - Escala Oficial,,Auxiliar Grado 20,20.0,Auxiliar,801838.0,sii_escala,escala.csv
+SII - Escala Oficial,,Auxiliar Grado 21,21.0,Auxiliar,659267.0,sii_escala,escala.csv
+Ministerio del Trabajo,,MINISTRO,,Funcionario,683261.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,SUBSECRETARIO,,Funcionario,657282.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,686474.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,647652.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,611009.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,576444.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,543772.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,501225.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,464060.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,429642.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,397844.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,368400.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,DIRECTIVO PROFESIONAL,,Funcionario,341108.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,686474.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,647652.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,611009.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,576444.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,543772.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,501225.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,464060.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,429642.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,397844.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,368400.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,341108.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,315831.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES,,Funcionario,292389.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,686474.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,647652.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,611009.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,576444.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,543772.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,501225.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,464060.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,429642.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,397844.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,368400.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,341108.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,315831.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,PROFESIONALES DL 1.608,,Funcionario,292389.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,429642.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,397844.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,368400.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,341108.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,315831.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,292389.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,270750.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,250645.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,232086.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,214901.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,200847.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,187717.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO PROFESIONAL,,Funcionario,175419.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,429642.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,397844.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,368400.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,341108.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,315831.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,292389.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,270750.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,250645.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,232086.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,214901.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,200847.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,187717.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,CON TITULO TECNICO,,Funcionario,175419.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,ADMINISTRATIVOS,,Funcionario,292389.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,ADMINISTRATIVOS,,Funcionario,270750.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,ADMINISTRATIVOS,,Funcionario,250645.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,ADMINISTRATIVOS,,Funcionario,232086.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,ADMINISTRATIVOS,,Funcionario,214901.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,AUXILIARES,,Funcionario,200847.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,AUXILIARES,,Funcionario,187717.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,AUXILIARES,,Funcionario,175419.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,AUXILIARES,,Funcionario,163956.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,697468.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,683261.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,657282.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,655177.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,714185.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,700213.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,611009.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,576444.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,543772.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Directivo,,Funcionario,501225.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,686474.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,647652.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,611009.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,576444.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,543772.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,501225.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,429642.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,397844.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,341108.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Profesional,,Funcionario,315831.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,292389.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,250645.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,232086.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,214901.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,200847.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,187717.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,175419.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,163956.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,153229.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,143194.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,133831.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,125008.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,116828.0,ministerio_trabajo,funcionarios_reales.csv
+Ministerio del Trabajo,,Adminstrativo,,Funcionario,109234.0,ministerio_trabajo,funcionarios_reales.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,7738744.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,6358918.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,5603864.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,5328191.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,4983345.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,4742765.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,4434419.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,4173512.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,3928829.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,3517872.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,3102429.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Directivo,2166267.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,5328191.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,4983345.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,4742765.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,4350819.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,4095593.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,3855644.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,3386071.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,2985993.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,2602630.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,2307359.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,2004018.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Profesional,1763382.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Fiscalizador,4173512.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Fiscalizador,3928829.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Fiscalizador,3517872.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Fiscalizador,3044211.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Fiscalizador,2705497.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Fiscalizador,2383499.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Fiscalizador,2085142.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Técnico,2353043.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Técnico,2085142.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Técnico,1834639.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Técnico,1402452.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Técnico,1203568.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Administrativo,1763382.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Administrativo,1383691.0,sii_especifico,funcionarios_reales_especificos.csv
+SII - Datos Específicos,,Funcionario SII,,Administrativo,1179166.0,sii_especifico,funcionarios_reales_especificos.csv

@@ -1,0 +1,12 @@
+{
+  "total_registros": 921,
+  "organismos_unicos": 41,
+  "estamentos_unicos": 6,
+  "grados_unicos": 21,
+  "fuentes_unicas": 2,
+  "promedio_sueldo": 2978655.93485342,
+  "mediana_sueldo": 2839972.0,
+  "min_sueldo": 552028.0,
+  "max_sueldo": 7444890.0,
+  "desv_std": 1509124.6383982052
+}
