@@ -41,9 +41,12 @@ def consolidar_todos_los_datos():
             df_sii_proc['nombre'] += ' ' + df_sii_proc['Apellido Materno'].fillna('')
         df_sii_proc['nombre'] = df_sii_proc['nombre'].str.strip()
     
-    # Mapear sueldo
+    # Mapear sueldo (limpiar formato de números chilenos)
     if 'Honorario bruto mensual' in df_sii_proc.columns:
-        df_sii_proc['sueldo_bruto'] = df_sii_proc['Honorario bruto mensual']
+        # Limpiar formato: "2.290.200" -> 2290200
+        df_sii_proc['sueldo_bruto'] = df_sii_proc['Honorario bruto mensual'].astype(str)
+        df_sii_proc['sueldo_bruto'] = df_sii_proc['sueldo_bruto'].str.replace('.', '').str.replace(',', '.')
+        df_sii_proc['sueldo_bruto'] = pd.to_numeric(df_sii_proc['sueldo_bruto'], errors='coerce')
     elif 'Remuneración bruta mensualizada' in df_sii_proc.columns:
         df_sii_proc['sueldo_bruto'] = df_sii_proc['Remuneración bruta mensualizada']
     elif 'Pago Mensual' in df_sii_proc.columns:
@@ -93,11 +96,26 @@ def consolidar_todos_los_datos():
     
     logger.info(f"✅ Datos consolidados: {len(df_valid)} registros válidos")
     
-    # Guardar datos finales
-    output_file = BASE_DIR / 'data' / 'processed' / 'sueldos_consolidado_final.csv'
-    df_valid.to_csv(output_file, index=False, encoding='utf-8')
+    # Guardar datos finales en CSV y Parquet
+    output_file_csv = BASE_DIR / 'data' / 'processed' / 'sueldos_consolidado_final.csv'
+    output_file_parquet = BASE_DIR / 'data' / 'processed' / 'sueldos_consolidado_final.parquet'
     
-    logger.info(f"✅ Datos finales guardados en {output_file}")
+    df_valid.to_csv(output_file_csv, index=False, encoding='utf-8')
+    df_valid.to_parquet(output_file_parquet, index=False, compression='snappy')
+    
+    logger.info(f"✅ Datos finales guardados en:")
+    logger.info(f"  CSV: {output_file_csv}")
+    logger.info(f"  Parquet: {output_file_parquet}")
+    
+    # Mostrar comparación de tamaños
+    csv_size = output_file_csv.stat().st_size / (1024*1024)  # MB
+    parquet_size = output_file_parquet.stat().st_size / (1024*1024)  # MB
+    compression_ratio = (1 - parquet_size/csv_size) * 100
+    
+    logger.info(f"📊 Comparación de tamaños:")
+    logger.info(f"  CSV: {csv_size:.2f} MB")
+    logger.info(f"  Parquet: {parquet_size:.2f} MB")
+    logger.info(f"  Compresión: {compression_ratio:.1f}% más pequeño")
     
     # Generar estadísticas
     stats = {

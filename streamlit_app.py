@@ -58,9 +58,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def load_data():
-    """Carga los datos desde los archivos CSV consolidados."""
+    """Carga los datos desde los archivos consolidados (Parquet preferido)."""
     try:
-        # Intentar cargar datos finales consolidados primero
+        # Intentar cargar datos finales en Parquet primero (más eficiente)
+        data_file = Path("data/processed/sueldos_consolidado_final_small.parquet")
+        if data_file.exists():
+            df = pd.read_parquet(data_file)
+            return df
+        
+        # Fallback a CSV
         data_file = Path("data/processed/sueldos_consolidado_final_small.csv")
         if data_file.exists():
             df = pd.read_csv(data_file)
