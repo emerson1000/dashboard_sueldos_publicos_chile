@@ -1,4 +1,3 @@
-# Dependencias básicas para Streamlit Community Cloud
 streamlit
 pandas
 plotly
