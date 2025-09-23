@@ -61,7 +61,7 @@ def load_data():
     """Carga los datos desde los archivos CSV consolidados."""
     try:
         # Intentar cargar datos finales consolidados primero
-        data_file = Path("data/processed/sueldos_consolidado_final.csv")
+        data_file = Path("data/processed/sueldos_consolidado_final_small.csv")
         if data_file.exists():
             df = pd.read_csv(data_file)
             return df
