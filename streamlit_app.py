@@ -287,8 +287,7 @@ def main():
                     color=organismo_promedio.values,
                     color_continuous_scale='Greens'
                 )
-                fig.update_xaxis(tickangle=45)
-                fig.update_layout(height=400)
+                fig.update_layout(xaxis_tickangle=45, height=400)
                 st.plotly_chart(fig, use_container_width=True)
         
         with tab3:
