@@ -6,10 +6,7 @@ Dashboard de Transparencia Salarial - Streamlit Cloud Version
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 from pathlib import Path
-import sqlite3
-import logging
 
 # Configurar página
 st.set_page_config(
