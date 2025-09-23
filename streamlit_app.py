@@ -58,9 +58,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def load_data():
-    """Carga los datos desde la base de datos SQLite."""
+    """Carga los datos desde los archivos CSV consolidados."""
     try:
-        # Para Streamlit Cloud, usar datos desde CSV
+        # Intentar cargar datos finales consolidados primero
+        data_file = Path("data/processed/sueldos_consolidado_final.csv")
+        if data_file.exists():
+            df = pd.read_csv(data_file)
+            return df
+        
+        # Fallback a datos reales consolidados
         data_file = Path("data/processed/sueldos_reales_consolidado.csv")
         if data_file.exists():
             df = pd.read_csv(data_file)
