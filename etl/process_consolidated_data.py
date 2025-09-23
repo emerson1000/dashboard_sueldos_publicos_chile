@@ -48,6 +48,30 @@ def process_consolidated_data():
     else:
         df_clean['grado'] = 'Sin especificar'
     
+    # Para datos de datos_gob_cl_api, inferir organismo y estamento del cargo
+    mask_datos_gob = df_clean['fuente'] == 'datos_gob_cl_api'
+    
+    # Inferir organismo del cargo
+    df_clean.loc[mask_datos_gob & (df_clean['organismo'].isna() | (df_clean['organismo'] == 'Sin especificar')), 'organismo'] = 'Municipalidad'
+    
+    # Inferir estamento del cargo
+    def inferir_estamento(cargo):
+        if pd.isna(cargo) or cargo == 'Sin especificar':
+            return 'Sin especificar'
+        cargo_lower = str(cargo).lower()
+        if any(word in cargo_lower for word in ['alcalde', 'concejal', 'director', 'ministro', 'subsecretario']):
+            return 'Directivo'
+        elif any(word in cargo_lower for word in ['profesional', 'ingeniero', 'abogado', 'médico', 'enfermero']):
+            return 'Profesional'
+        elif any(word in cargo_lower for word in ['técnico', 'analista']):
+            return 'Técnico'
+        elif any(word in cargo_lower for word in ['administrativo', 'secretario', 'asistente']):
+            return 'Administrativo'
+        else:
+            return 'Auxiliar'
+    
+    df_clean.loc[mask_datos_gob & (df_clean['estamento'] == 'Sin especificar'), 'estamento'] = df_clean.loc[mask_datos_gob & (df_clean['estamento'] == 'Sin especificar'), 'cargo'].apply(inferir_estamento)
+    
     # Limpiar organismos
     df_clean['organismo'] = df_clean['organismo'].fillna('Sin especificar')
     df_clean['organismo'] = df_clean['organismo'].str.strip()
