@@ -102,15 +102,28 @@ def main():
         total_organismos = len(organismos)
         
         # Calcular cuántos registros tomar por organismo
-        records_per_org = max(1, target_size // total_organismos)
+        # Dar más registros a organismos grandes (SII) y menos a pequeños
+        records_per_org = max(3, target_size // total_organismos)  # Mínimo 3 por organismo
         
         sampled_dfs = []
         for organismo in organismos.index:
             org_data = df[df['organismo'] == organismo]
-            if len(org_data) <= records_per_org:
+            
+            # Dar más registros a organismos grandes
+            if organismo == 'Servicio de Impuestos Internos':
+                # SII: tomar más registros (proporcional a su tamaño)
+                sample_size = min(len(org_data), target_size // 2)  # 50% del dataset para SII
+            elif 'ministerio' in organismo.lower() or 'servicio' in organismo.lower():
+                # Ministerios y servicios: tomar más registros
+                sample_size = min(len(org_data), records_per_org * 3)
+            else:
+                # Municipalidades: tomar registros base
+                sample_size = min(len(org_data), records_per_org)
+            
+            if len(org_data) <= sample_size:
                 sampled_dfs.append(org_data)
             else:
-                sampled_dfs.append(org_data.sample(n=records_per_org, random_state=42))
+                sampled_dfs.append(org_data.sample(n=sample_size, random_state=42))
         
         return pd.concat(sampled_dfs, ignore_index=True)
     
