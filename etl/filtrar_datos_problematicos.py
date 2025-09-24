@@ -13,8 +13,8 @@ logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Sueldo mínimo chileno actual (aproximado)
-SUELDO_MINIMO_CHILE = 500000  # pesos chilenos
+# Sueldo mínimo más conservador para no eliminar datos legítimos
+SUELDO_MINIMO_CHILE = 200000  # pesos chilenos (más conservador)
 
 def filtrar_datos_problematicos(df):
     """Filtra datos con sueldos menores al mínimo legal."""
