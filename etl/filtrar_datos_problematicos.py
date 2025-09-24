@@ -91,8 +91,30 @@ def main():
     df_filtrado.to_parquet(output_file_parquet, index=False, compression='snappy')
     df_filtrado.to_csv(output_file_csv, index=False, encoding='utf-8')
     
-    # Crear archivo pequeño para Streamlit Cloud
-    df_small = df_filtrado.sample(n=min(5000, len(df_filtrado)), random_state=42)
+    # Crear archivo pequeño para Streamlit Cloud con muestreo estratificado
+    def create_stratified_sample(df, target_size=5000):
+        """Crea una muestra estratificada que mantiene representación de organismos."""
+        if len(df) <= target_size:
+            return df
+        
+        # Agrupar por organismo y tomar una muestra proporcional
+        organismos = df['organismo'].value_counts()
+        total_organismos = len(organismos)
+        
+        # Calcular cuántos registros tomar por organismo
+        records_per_org = max(1, target_size // total_organismos)
+        
+        sampled_dfs = []
+        for organismo in organismos.index:
+            org_data = df[df['organismo'] == organismo]
+            if len(org_data) <= records_per_org:
+                sampled_dfs.append(org_data)
+            else:
+                sampled_dfs.append(org_data.sample(n=records_per_org, random_state=42))
+        
+        return pd.concat(sampled_dfs, ignore_index=True)
+    
+    df_small = create_stratified_sample(df_filtrado, 5000)
     output_file_small_parquet = BASE_DIR / 'data' / 'processed' / 'sueldos_filtrados_small.parquet'
     output_file_small_csv = BASE_DIR / 'data' / 'processed' / 'sueldos_filtrados_small.csv'
     
