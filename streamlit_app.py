@@ -7,10 +7,8 @@ Dashboard de transparencia salarial con datos reales.
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 import warnings
 from pathlib import Path
-import sqlite3
 
 # Configuración de la página
 st.set_page_config(
@@ -21,13 +19,7 @@ st.set_page_config(
 )
 
 # Suprimir warnings
-warnings.filterwarnings("ignore", category=UserWarning)
-warnings.filterwarnings("ignore", category=FutureWarning)
-warnings.filterwarnings("ignore", category=DeprecationWarning)
-
-# Configurar Plotly para evitar warnings
-import plotly.io as pio
-pio.templates.default = "plotly_white"
+warnings.filterwarnings("ignore")
 
 def load_data():
     """Cargar datos desde archivos CSV"""
@@ -77,21 +69,12 @@ def clean_data(df):
     if 'sueldo_bruto' in df.columns:
         df['sueldo_bruto'] = pd.to_numeric(df['sueldo_bruto'], errors='coerce')
         df = df.dropna(subset=['sueldo_bruto'])
-        # Filtrar sueldos razonables (entre $200,000 y $50,000,000)
+        # Filtrar sueldos razonables
         df = df[(df['sueldo_bruto'] >= 200000) & (df['sueldo_bruto'] <= 50000000)]
     
     # Limpiar categorías
     if 'categoria_organismo' in df.columns:
         df['categoria_organismo'] = df['categoria_organismo'].fillna('Otros')
-        # Mapear categorías comunes
-        categoria_mapping = {
-            'ministerio': 'Ministerio',
-            'municipalidad': 'Municipalidad',
-            'servicio': 'Servicio',
-            'universidad': 'Universidad',
-            'gobierno regional': 'Gobierno Regional'
-        }
-        df['categoria_organismo'] = df['categoria_organismo'].str.lower().map(categoria_mapping).fillna(df['categoria_organismo'])
     
     # Limpiar organismos
     if 'organismo' in df.columns:
@@ -100,39 +83,21 @@ def clean_data(df):
     # Limpiar estamentos
     if 'estamento' in df.columns:
         df['estamento'] = df['estamento'].fillna('Sin especificar')
-        # Normalizar estamentos
-        estamento_mapping = {
-            'directivo': 'Directivo',
-            'profesional': 'Profesional',
-            'técnico': 'Técnico',
-            'administrativo': 'Administrativo',
-            'auxiliar': 'Auxiliar'
-        }
-        df['estamento'] = df['estamento'].str.lower().map(estamento_mapping).fillna(df['estamento'])
-    
-    # Limpiar nombres y cargos
-    if 'nombre' in df.columns:
-        df['nombre'] = df['nombre'].fillna('Sin especificar')
-    if 'cargo' in df.columns:
-        df['cargo'] = df['cargo'].fillna('Sin especificar')
     
     return df
 
 def main():
     """Función principal del dashboard"""
     
-    # CSS personalizado mejorado
-st.markdown("""
-<style>
+    # CSS personalizado
+    st.markdown("""
+    <style>
     .main-header {
         font-size: 3rem;
         font-weight: bold;
-        background: linear-gradient(90deg, #1f77b4, #ff7f0e);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #1f77b4;
         text-align: center;
         margin-bottom: 2rem;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
     }
     .metric-card {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -140,8 +105,6 @@ st.markdown("""
         padding: 1.5rem;
         border-radius: 15px;
         box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-        border: 1px solid rgba(255,255,255,0.2);
-        backdrop-filter: blur(10px);
     }
     .metric-value {
         font-size: 2rem;
@@ -152,35 +115,6 @@ st.markdown("""
         font-size: 0.9rem;
         opacity: 0.9;
     }
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 2px;
-    }
-    .stTabs [data-baseweb="tab"] {
-        height: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: #f0f2f6;
-        border-radius: 10px 10px 0 0;
-        border: 1px solid #e0e0e0;
-    }
-    .stTabs [aria-selected="true"] {
-        background-color: #1f77b4;
-        color: white;
-    }
-    .success-box {
-        background-color: #d4edda;
-        border: 1px solid #c3e6cb;
-        border-radius: 8px;
-        padding: 1rem;
-        margin: 1rem 0;
-    }
-    .warning-box {
-        background-color: #fff3cd;
-        border: 1px solid #ffeaa7;
-        border-radius: 8px;
-        padding: 1rem;
-        margin: 1rem 0;
-    }
     </style>
     """, unsafe_allow_html=True)
     
@@ -190,7 +124,7 @@ st.markdown("""
     
     # Cargar datos
     with st.spinner("Cargando datos..."):
-    df = load_data()
+        df = load_data()
         df = clean_data(df)
     
     if df.empty:
@@ -210,19 +144,19 @@ st.markdown("""
     
     # Filtro por organismo específico
     if 'organismo' in df.columns:
-    organismos = ['Todos'] + sorted(df['organismo'].unique().tolist())
+        organismos = ['Todos'] + sorted(df['organismo'].unique().tolist())
         organismo_seleccionado = st.sidebar.selectbox("Organismo Específico", organismos)
-    
-    if organismo_seleccionado != 'Todos':
-        df = df[df['organismo'] == organismo_seleccionado]
+        
+        if organismo_seleccionado != 'Todos':
+            df = df[df['organismo'] == organismo_seleccionado]
     
     # Filtro por estamento
     if 'estamento' in df.columns:
-    estamentos = ['Todos'] + sorted(df['estamento'].unique().tolist())
-    estamento_seleccionado = st.sidebar.selectbox("Estamento", estamentos)
-    
-    if estamento_seleccionado != 'Todos':
-        df = df[df['estamento'] == estamento_seleccionado]
+        estamentos = ['Todos'] + sorted(df['estamento'].unique().tolist())
+        estamento_seleccionado = st.sidebar.selectbox("Estamento", estamentos)
+        
+        if estamento_seleccionado != 'Todos':
+            df = df[df['estamento'] == estamento_seleccionado]
     
     # Filtro por rango de sueldo
     if 'sueldo_bruto' in df.columns and len(df) > 0:
@@ -239,7 +173,7 @@ st.markdown("""
             )
             df = df[(df['sueldo_bruto'] >= rango_sueldo[0]) & (df['sueldo_bruto'] <= rango_sueldo[1])]
     
-    # Métricas principales mejoradas
+    # Métricas principales
     if len(df) > 0:
         st.markdown("### 📊 Métricas Principales")
         
@@ -296,22 +230,22 @@ st.markdown("""
             st.metric("⚖️ Ratio Max/Min", f"{ratio_max_min:.1f}x")
         
         # Tabs para diferentes análisis
-        tab1, tab2, tab3, tab4, tab5 = st.tabs(["📈 Por Estamento", "🏛️ Por Organismo", "🏢 Por Categoría", "📊 Análisis Avanzado", "📋 Datos Raw"])
+        tab1, tab2, tab3, tab4 = st.tabs(["📈 Por Estamento", "🏛️ Por Organismo", "🏢 Por Categoría", "📋 Datos Raw"])
         
         with tab1:
             if 'estamento' in df.columns and len(df) > 0:
                 estamento_promedio = df.groupby('estamento')['sueldo_bruto'].mean().sort_values(ascending=False)
                 if len(estamento_promedio) > 0:
-                fig = px.bar(
-                    x=estamento_promedio.values,
-                    y=estamento_promedio.index,
-                    orientation='h',
-                    title="Promedio de Sueldos por Estamento",
-                    labels={'x': 'Sueldo Promedio ($)', 'y': 'Estamento'},
-                    color=estamento_promedio.values,
-                    color_continuous_scale='Blues'
-                )
-                fig.update_layout(height=400)
+                    fig = px.bar(
+                        x=estamento_promedio.values,
+                        y=estamento_promedio.index,
+                        orientation='h',
+                        title="Promedio de Sueldos por Estamento",
+                        labels={'x': 'Sueldo Promedio ($)', 'y': 'Estamento'},
+                        color=estamento_promedio.values,
+                        color_continuous_scale='Blues'
+                    )
+                    fig.update_layout(height=400)
                     st.plotly_chart(fig, width='stretch')
                 else:
                     st.warning("No hay datos de estamentos disponibles")
@@ -322,14 +256,14 @@ st.markdown("""
             if 'organismo' in df.columns and len(df) > 0:
                 organismo_promedio = df.groupby('organismo')['sueldo_bruto'].mean().sort_values(ascending=False).head(10)
                 if len(organismo_promedio) > 0:
-                fig = px.bar(
-                    x=organismo_promedio.index,
-                    y=organismo_promedio.values,
-                    title="Top 10 Organismos por Sueldo Promedio",
-                    labels={'x': 'Organismo', 'y': 'Sueldo Promedio ($)'},
-                    color=organismo_promedio.values,
-                    color_continuous_scale='Greens'
-                )
+                    fig = px.bar(
+                        x=organismo_promedio.index,
+                        y=organismo_promedio.values,
+                        title="Top 10 Organismos por Sueldo Promedio",
+                        labels={'x': 'Organismo', 'y': 'Sueldo Promedio ($)'},
+                        color=organismo_promedio.values,
+                        color_continuous_scale='Greens'
+                    )
                     fig.update_layout(height=400)
                     st.plotly_chart(fig, width='stretch')
                 else:
@@ -357,8 +291,8 @@ st.markdown("""
                         color='Promedio_Sueldo',
                         color_continuous_scale='Viridis',
                         hover_data=['Total_Funcionarios', 'Mediana_Sueldo', 'Organismos_Unicos']
-            )
-            fig.update_layout(height=400)
+                    )
+                    fig.update_layout(height=400)
                     st.plotly_chart(fig, width='stretch')
                     
                     # Tabla de estadísticas
@@ -370,75 +304,19 @@ st.markdown("""
                 st.warning("No hay datos de categorías disponibles")
         
         with tab4:
-            st.subheader("📊 Análisis Avanzado")
+            st.subheader("📋 Datos Raw")
+            st.dataframe(df, width='stretch')
             
-            # Distribución de sueldos
+            # Información del dataset
+            st.subheader("Información del Dataset")
             col1, col2 = st.columns(2)
             
             with col1:
-                st.subheader("Distribución de Sueldos")
-                fig_hist = px.histogram(
-                    df, 
-                x='sueldo_bruto',
-                    nbins=50,
-                    title="Histograma de Distribución de Sueldos",
-                    labels={'sueldo_bruto': 'Sueldo Bruto ($)', 'count': 'Frecuencia'}
-                )
-                fig_hist.update_layout(height=400)
-                st.plotly_chart(fig_hist, width='stretch')
-            
-            with col2:
-                st.subheader("Box Plot por Categoría")
-                if 'categoria_organismo' in df.columns:
-                    fig_box = px.box(
-                        df,
-                        x='categoria_organismo',
-                        y='sueldo_bruto',
-                        title="Distribución de Sueldos por Categoría",
-                        labels={'categoria_organismo': 'Categoría', 'sueldo_bruto': 'Sueldo Bruto ($)'}
-                    )
-                    fig_box.update_layout(height=400)
-                    st.plotly_chart(fig_box, width='stretch')
-            
-            # Análisis de percentiles
-            st.subheader("Análisis de Percentiles")
-            percentiles = [10, 25, 50, 75, 90, 95, 99]
-            perc_values = [df['sueldo_bruto'].quantile(p/100) for p in percentiles]
-            
-            col3, col4, col5 = st.columns(3)
-            
-            with col3:
-                st.metric("P10", f"${perc_values[0]:,.0f}")
-                st.metric("P25", f"${perc_values[1]:,.0f}")
-                st.metric("P50 (Mediana)", f"${perc_values[2]:,.0f}")
-            
-            with col4:
-                st.metric("P75", f"${perc_values[3]:,.0f}")
-                st.metric("P90", f"${perc_values[4]:,.0f}")
-            
-            with col5:
-                st.metric("P95", f"${perc_values[5]:,.0f}")
-                st.metric("P99", f"${perc_values[6]:,.0f}")
-            
-            # Top 10 sueldos más altos
-            st.subheader("🔝 Top 10 Sueldos Más Altos")
-            top_sueldos = df.nlargest(10, 'sueldo_bruto')[['organismo', 'cargo', 'nombre', 'sueldo_bruto']]
-            st.dataframe(top_sueldos, width='stretch')
-        
-        with tab5:
-            st.subheader("📋 Datos Raw")
-            st.dataframe(df, width='stretch')
-        
-        # Información del dataset
-            st.subheader("Información del Dataset")
-        col1, col2 = st.columns(2)
-        
-        with col1:
                 st.write(f"**Total de registros:** {len(df):,}")
                 st.write(f"**Columnas:** {len(df.columns)}")
                 st.write(f"**Memoria utilizada:** {df.memory_usage(deep=True).sum() / 1024**2:.2f} MB")
-        
-        with col2:
+            
+            with col2:
                 if 'categoria_organismo' in df.columns:
                     st.write("**Distribución por categoría:**")
                     categoria_dist = df['categoria_organismo'].value_counts()
