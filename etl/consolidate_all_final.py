@@ -42,15 +42,40 @@ def consolidar_todos_los_datos():
         df_sii_proc['nombre'] = df_sii_proc['nombre'].str.strip()
     
     # Mapear sueldo (limpiar formato de números chilenos)
-    if 'Honorario bruto mensual' in df_sii_proc.columns:
-        # Limpiar formato: "2.290.200" -> 2290200
-        df_sii_proc['sueldo_bruto'] = df_sii_proc['Honorario bruto mensual'].astype(str)
-        df_sii_proc['sueldo_bruto'] = df_sii_proc['sueldo_bruto'].str.replace('.', '').str.replace(',', '.')
-        df_sii_proc['sueldo_bruto'] = pd.to_numeric(df_sii_proc['sueldo_bruto'], errors='coerce')
-    elif 'Remuneración bruta mensualizada' in df_sii_proc.columns:
-        df_sii_proc['sueldo_bruto'] = df_sii_proc['Remuneración bruta mensualizada']
-    elif 'Pago Mensual' in df_sii_proc.columns:
-        df_sii_proc['sueldo_bruto'] = df_sii_proc['Pago Mensual']
+    def clean_salary_column(series):
+        """Limpia una columna de sueldo con formato chileno."""
+        if series.isna().all():
+            return pd.Series([pd.NA] * len(series))
+        
+        # Convertir a string y limpiar
+        cleaned = series.astype(str)
+        cleaned = cleaned.str.replace('.', '').str.replace(',', '.')
+        cleaned = cleaned.replace('nan', pd.NA)
+        cleaned = cleaned.replace('Sin especificar', pd.NA)
+        cleaned = cleaned.replace('No percibe remuneraciones adicionales', pd.NA)
+        
+        return pd.to_numeric(cleaned, errors='coerce')
+    
+    # Intentar diferentes columnas de sueldo en orden de prioridad
+    sueldo_mapped = False
+    
+    # 1. Para datos de planta: "Remuneración bruta mensualizada"
+    if 'Remuneración bruta mensualizada' in df_sii_proc.columns:
+        df_sii_proc['sueldo_bruto'] = clean_salary_column(df_sii_proc['Remuneración bruta mensualizada'])
+        sueldo_mapped = True
+    
+    # 2. Para datos de honorarios: "Honorario bruto mensual"
+    if not sueldo_mapped and 'Honorario bruto mensual' in df_sii_proc.columns:
+        df_sii_proc['sueldo_bruto'] = clean_salary_column(df_sii_proc['Honorario bruto mensual'])
+        sueldo_mapped = True
+    
+    # 3. Fallback a "Pago Mensual" (pero este no es numérico)
+    if not sueldo_mapped and 'Pago Mensual' in df_sii_proc.columns:
+        df_sii_proc['sueldo_bruto'] = pd.NA
+        sueldo_mapped = True
+    
+    if not sueldo_mapped:
+        df_sii_proc['sueldo_bruto'] = pd.NA
     
     # Mapear cargo
     if 'Descripción de la función' in df_sii_proc.columns:
@@ -58,16 +83,22 @@ def consolidar_todos_los_datos():
     elif 'Cargo o función' in df_sii_proc.columns:
         df_sii_proc['cargo'] = df_sii_proc['Cargo o función']
     
-    # Mapear grado
+    # Mapear grado (asegurar que sea string)
     if 'Grado EUS' in df_sii_proc.columns:
-        df_sii_proc['grado'] = df_sii_proc['Grado EUS']
+        df_sii_proc['grado'] = df_sii_proc['Grado EUS'].astype(str)
     
     # Limpiar y estandarizar datos del SII
     df_sii_proc['organismo'] = 'Servicio de Impuestos Internos'
-    df_sii_proc['estamento'] = df_sii_proc['tipo'].fillna('Sin especificar')
-    df_sii_proc['cargo'] = df_sii_proc['cargo'].fillna('Sin especificar')
-    df_sii_proc['grado'] = df_sii_proc['grado'].fillna('Sin especificar')
-    df_sii_proc['nombre'] = df_sii_proc['nombre'].fillna('Sin especificar')
+    
+    # Mapear estamento correctamente
+    if 'Estamento' in df_sii_proc.columns:
+        df_sii_proc['estamento'] = df_sii_proc['Estamento'].fillna('Sin especificar')
+    else:
+        df_sii_proc['estamento'] = df_sii_proc['tipo'].fillna('Sin especificar')
+    
+    df_sii_proc['cargo'] = df_sii_proc['cargo'].astype(str).fillna('Sin especificar')
+    df_sii_proc['grado'] = df_sii_proc['grado'].astype(str).fillna('Sin especificar')
+    df_sii_proc['nombre'] = df_sii_proc['nombre'].astype(str).fillna('Sin especificar')
     df_sii_proc['fuente'] = 'sii_tablas_html'
     df_sii_proc['url_origen'] = f'http://www.sii.cl/transparencia/{df_sii_proc["anio"]}/per_{df_sii_proc["tipo"]}_{df_sii_proc["mes"]}.html'
     
