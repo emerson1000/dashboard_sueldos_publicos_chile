@@ -43,7 +43,7 @@ def load_data():
                 st.success(f"✅ Cargando datos reales desde: {csv_file.name}")
                 df = pd.read_csv(csv_file)
                 if len(df) > 0:
-                    return df
+            return df
         
         # Si no se encuentran datos reales, crear datos de ejemplo
         st.warning("⚠️ No se encontraron datos consolidados. Mostrando datos de ejemplo.")
