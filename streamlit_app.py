@@ -43,7 +43,7 @@ def load_data():
                 st.success(f"✅ Cargando datos reales desde: {csv_file.name}")
                 df = pd.read_csv(csv_file)
                 if len(df) > 0:
-                    return df
+            return df
         
         # Si no se encuentran datos reales, crear datos de ejemplo
         st.warning("⚠️ No se encontraron datos consolidados. Mostrando datos de ejemplo.")
@@ -72,7 +72,7 @@ def clean_data(df):
     
     # Convertir sueldo_bruto a numérico
     if 'sueldo_bruto' in df.columns:
-        df['sueldo_bruto'] = pd.to_numeric(df['sueldo_bruto'], errors='coerce')
+    df['sueldo_bruto'] = pd.to_numeric(df['sueldo_bruto'], errors='coerce')
         df = df.dropna(subset=['sueldo_bruto'])
         # Filtrar sueldos razonables (más permisivo)
         df = df[(df['sueldo_bruto'] >= 100000) & (df['sueldo_bruto'] <= 10000000)]
@@ -83,11 +83,11 @@ def clean_data(df):
     
     # Limpiar organismos
     if 'organismo' in df.columns:
-        df['organismo'] = df['organismo'].fillna('Sin especificar')
+    df['organismo'] = df['organismo'].fillna('Sin especificar')
     
     # Limpiar estamentos
     if 'estamento' in df.columns:
-        df['estamento'] = df['estamento'].fillna('Sin especificar')
+    df['estamento'] = df['estamento'].fillna('Sin especificar')
     
     # Limpiar nombres y cargos
     if 'nombre' in df.columns:
