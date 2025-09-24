@@ -1,0 +1,39 @@
+{
+  "fecha_generacion": "2025-09-24T09:10:29.356005",
+  "total_registros": 19224,
+  "organismos_unicos": 349,
+  "estamentos_unicos": 8,
+  "categorias_organismos": 3,
+  "sueldo_promedio": 1111422.1834165626,
+  "sueldo_mediana": 774119.0,
+  "sueldo_minimo": 102237.0,
+  "sueldo_maximo": 9667694.0,
+  "sueldo_desviacion": 1161657.3082396348,
+  "top_organismos": {
+    "Municipalidad": 3994,
+    "Servicio de Impuestos Internos": 3187,
+    "ministerio_trabajo": 366,
+    "Municipalidad de Hualpén": 64,
+    "Municipalidad de San Vicente": 64,
+    "Municipalidad de Renca": 54,
+    "Municipalidad de Chile Chico": 54,
+    "Municipalidad de Victoria": 52,
+    "Municipalidad de San Pedro de Atacama": 52,
+    "Municipalidad de Coinco": 52
+  },
+  "top_estamentos": {
+    "AUXILIAR": 12986,
+    "DIRECTIVO": 2928,
+    "FISCALIZADOR": 1123,
+    "HONORARIOS": 687,
+    "PROFESIONAL": 494,
+    "ADMINISTRATIVO": 441,
+    "SIN ESPECIFICAR": 366,
+    "TÉCNICO": 199
+  },
+  "distribucion_categorias": {
+    "Municipalidad": 15671,
+    "Servicio": 3187,
+    "Ministerio": 366
+  }
+}
