@@ -83,11 +83,11 @@ def clean_data(df):
     
     # Limpiar organismos
     if 'organismo' in df.columns:
-    df['organismo'] = df['organismo'].fillna('Sin especificar')
+        df['organismo'] = df['organismo'].fillna('Sin especificar')
     
     # Limpiar estamentos
     if 'estamento' in df.columns:
-    df['estamento'] = df['estamento'].fillna('Sin especificar')
+        df['estamento'] = df['estamento'].fillna('Sin especificar')
     
     # Limpiar nombres y cargos
     if 'nombre' in df.columns:
