@@ -40,17 +40,17 @@ def load_data():
         
         for csv_file in data_files:
             if csv_file.exists():
-                st.success(f"✅ Cargando datos reales desde: {csv_file.name}")
+                st.success(f"Cargando datos reales desde: {csv_file.name}")
                 df = pd.read_csv(csv_file)
                 if len(df) > 0:
-            return df
+                    return df
         
         # Si no se encuentran datos reales, crear datos de ejemplo
-        st.warning("⚠️ No se encontraron datos consolidados. Mostrando datos de ejemplo.")
+        st.warning("No se encontraron datos consolidados. Mostrando datos de ejemplo.")
         return create_sample_data()
         
     except Exception as e:
-        st.error(f"❌ Error cargando datos: {e}")
+        st.error(f"Error cargando datos: {e}")
         return create_sample_data()
 
 def create_sample_data():
@@ -72,7 +72,7 @@ def clean_data(df):
     
     # Convertir sueldo_bruto a numérico
     if 'sueldo_bruto' in df.columns:
-    df['sueldo_bruto'] = pd.to_numeric(df['sueldo_bruto'], errors='coerce')
+        df['sueldo_bruto'] = pd.to_numeric(df['sueldo_bruto'], errors='coerce')
         df = df.dropna(subset=['sueldo_bruto'])
         # Filtrar sueldos razonables (más permisivo)
         df = df[(df['sueldo_bruto'] >= 100000) & (df['sueldo_bruto'] <= 10000000)]
@@ -83,11 +83,11 @@ def clean_data(df):
     
     # Limpiar organismos
     if 'organismo' in df.columns:
-    df['organismo'] = df['organismo'].fillna('Sin especificar')
+        df['organismo'] = df['organismo'].fillna('Sin especificar')
     
     # Limpiar estamentos
     if 'estamento' in df.columns:
-    df['estamento'] = df['estamento'].fillna('Sin especificar')
+        df['estamento'] = df['estamento'].fillna('Sin especificar')
     
     # Limpiar nombres y cargos
     if 'nombre' in df.columns:
@@ -150,12 +150,12 @@ def main():
     """, unsafe_allow_html=True)
     
     # Título principal
-    st.markdown('<h1 class="main-header">🏛️ Dashboard Sueldos Públicos Chile</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">Dashboard Sueldos Públicos Chile</h1>', unsafe_allow_html=True)
     st.markdown("**Análisis de remuneraciones del sector público chileno con datos reales**")
     
     # Cargar datos
     with st.spinner("Cargando datos..."):
-    df = load_data()
+        df = load_data()
         df = clean_data(df)
     
     if df.empty:
@@ -163,7 +163,7 @@ def main():
         return
     
     # Sidebar con filtros
-    st.sidebar.header("🔍 Filtros")
+    st.sidebar.header("Filtros")
     
     # Filtro por categoría de organismo
     if 'categoria_organismo' in df.columns:
@@ -175,19 +175,19 @@ def main():
     
     # Filtro por organismo específico
     if 'organismo' in df.columns:
-    organismos = ['Todos'] + sorted(df['organismo'].unique().tolist())
+        organismos = ['Todos'] + sorted(df['organismo'].unique().tolist())
         organismo_seleccionado = st.sidebar.selectbox("Organismo Específico", organismos)
-    
-    if organismo_seleccionado != 'Todos':
-        df = df[df['organismo'] == organismo_seleccionado]
+        
+        if organismo_seleccionado != 'Todos':
+            df = df[df['organismo'] == organismo_seleccionado]
     
     # Filtro por estamento
     if 'estamento' in df.columns:
-    estamentos = ['Todos'] + sorted(df['estamento'].unique().tolist())
-    estamento_seleccionado = st.sidebar.selectbox("Estamento", estamentos)
-    
-    if estamento_seleccionado != 'Todos':
-        df = df[df['estamento'] == estamento_seleccionado]
+        estamentos = ['Todos'] + sorted(df['estamento'].unique().tolist())
+        estamento_seleccionado = st.sidebar.selectbox("Estamento", estamentos)
+        
+        if estamento_seleccionado != 'Todos':
+            df = df[df['estamento'] == estamento_seleccionado]
     
     # Filtro por rango de sueldo
     if 'sueldo_bruto' in df.columns and len(df) > 0:
@@ -206,14 +206,14 @@ def main():
     
     # Métricas principales
     if len(df) > 0:
-        st.markdown("### 📊 Métricas Principales")
+        st.markdown("### Métricas Principales")
         
         col1, col2, col3, col4 = st.columns(4)
         
         with col1:
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-value">📊 {len(df):,}</div>
+                <div class="metric-value">{len(df):,}</div>
                 <div class="metric-label">Total Registros</div>
             </div>
             """, unsafe_allow_html=True)
@@ -222,7 +222,7 @@ def main():
             promedio = df['sueldo_bruto'].mean()
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-value">💰 ${promedio:,.0f}</div>
+                <div class="metric-value">${promedio:,.0f}</div>
                 <div class="metric-label">Promedio Sueldo</div>
             </div>
             """, unsafe_allow_html=True)
@@ -231,7 +231,7 @@ def main():
             mediana = df['sueldo_bruto'].median()
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-value">📈 ${mediana:,.0f}</div>
+                <div class="metric-value">${mediana:,.0f}</div>
                 <div class="metric-label">Mediana Sueldo</div>
             </div>
             """, unsafe_allow_html=True)
@@ -240,7 +240,7 @@ def main():
             organismos_unicos = df['organismo'].nunique() if 'organismo' in df.columns else 0
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-value">🏛️ {organismos_unicos}</div>
+                <div class="metric-value">{organismos_unicos}</div>
                 <div class="metric-label">Organismos</div>
             </div>
             """, unsafe_allow_html=True)
@@ -250,37 +250,37 @@ def main():
         
         with col5:
             sueldo_max = df['sueldo_bruto'].max()
-            st.metric("🔝 Sueldo Máximo", f"${sueldo_max:,.0f}")
+            st.metric("Sueldo Máximo", f"${sueldo_max:,.0f}")
         
         with col6:
             sueldo_min = df['sueldo_bruto'].min()
-            st.metric("🔻 Sueldo Mínimo", f"${sueldo_min:,.0f}")
+            st.metric("Sueldo Mínimo", f"${sueldo_min:,.0f}")
         
         with col7:
             ratio_max_min = sueldo_max / sueldo_min if sueldo_min > 0 else 0
-            st.metric("⚖️ Ratio Max/Min", f"{ratio_max_min:.1f}x")
+            st.metric("Ratio Max/Min", f"{ratio_max_min:.1f}x")
         
         with col8:
             gini_coefficient = calculate_gini(df['sueldo_bruto'].values)
-            st.metric("📊 Índice de Gini", f"{gini_coefficient:.3f}")
+            st.metric("Índice de Gini", f"{gini_coefficient:.3f}")
         
         # Tabs para diferentes análisis
-        tab1, tab2, tab3, tab4, tab5 = st.tabs(["📈 Por Estamento", "🏛️ Por Organismo", "🏢 Por Categoría", "📊 Análisis de Desigualdad", "📋 Datos Raw"])
+        tab1, tab2, tab3, tab4, tab5 = st.tabs(["Por Estamento", "Por Organismo", "Por Categoría", "Análisis de Desigualdad", "Datos Raw"])
         
         with tab1:
             if 'estamento' in df.columns and len(df) > 0:
                 estamento_promedio = df.groupby('estamento')['sueldo_bruto'].mean().sort_values(ascending=False)
                 if len(estamento_promedio) > 0:
-                fig = px.bar(
-                    x=estamento_promedio.values,
-                    y=estamento_promedio.index,
-                    orientation='h',
-                    title="Promedio de Sueldos por Estamento",
-                    labels={'x': 'Sueldo Promedio ($)', 'y': 'Estamento'},
-                    color=estamento_promedio.values,
-                    color_continuous_scale='Blues'
-                )
-                fig.update_layout(height=400)
+                    fig = px.bar(
+                        x=estamento_promedio.values,
+                        y=estamento_promedio.index,
+                        orientation='h',
+                        title="Promedio de Sueldos por Estamento",
+                        labels={'x': 'Sueldo Promedio ($)', 'y': 'Estamento'},
+                        color=estamento_promedio.values,
+                        color_continuous_scale='Blues'
+                    )
+                    fig.update_layout(height=400)
                     st.plotly_chart(fig, width='stretch')
                 else:
                     st.warning("No hay datos de estamentos disponibles")
@@ -291,14 +291,14 @@ def main():
             if 'organismo' in df.columns and len(df) > 0:
                 organismo_promedio = df.groupby('organismo')['sueldo_bruto'].mean().sort_values(ascending=False).head(10)
                 if len(organismo_promedio) > 0:
-                fig = px.bar(
-                    x=organismo_promedio.index,
-                    y=organismo_promedio.values,
-                    title="Top 10 Organismos por Sueldo Promedio",
-                    labels={'x': 'Organismo', 'y': 'Sueldo Promedio ($)'},
-                    color=organismo_promedio.values,
-                    color_continuous_scale='Greens'
-                )
+                    fig = px.bar(
+                        x=organismo_promedio.index,
+                        y=organismo_promedio.values,
+                        title="Top 10 Organismos por Sueldo Promedio",
+                        labels={'x': 'Organismo', 'y': 'Sueldo Promedio ($)'},
+                        color=organismo_promedio.values,
+                        color_continuous_scale='Greens'
+                    )
                     fig.update_layout(height=400)
                     st.plotly_chart(fig, width='stretch')
                 else:
@@ -326,8 +326,8 @@ def main():
                         color='Promedio_Sueldo',
                         color_continuous_scale='Viridis',
                         hover_data=['Total_Funcionarios', 'Mediana_Sueldo', 'Organismos_Unicos']
-            )
-            fig.update_layout(height=400)
+                    )
+                    fig.update_layout(height=400)
                     st.plotly_chart(fig, width='stretch')
                     
                     # Tabla de estadísticas
@@ -339,13 +339,13 @@ def main():
                 st.warning("No hay datos de categorías disponibles")
         
         with tab4:
-            st.subheader("📊 Análisis de Desigualdad")
+            st.subheader("Análisis de Desigualdad")
             
             # Métricas de desigualdad
             col1, col2 = st.columns(2)
             
             with col1:
-                st.subheader("🔍 Métricas de Desigualdad")
+                st.subheader("Métricas de Desigualdad")
                 
                 # Índice de Gini
                 gini_coefficient = calculate_gini(df['sueldo_bruto'].values)
@@ -353,11 +353,11 @@ def main():
                 
                 # Interpretación del Gini
                 if gini_coefficient < 0.3:
-                    st.success("📈 **Baja desigualdad** - Distribución relativamente equitativa")
+                    st.success("Baja desigualdad - Distribución relativamente equitativa")
                 elif gini_coefficient < 0.5:
-                    st.warning("📊 **Desigualdad moderada** - Distribución con diferencias notables")
+                    st.warning("Desigualdad moderada - Distribución con diferencias notables")
                 else:
-                    st.error("📉 **Alta desigualdad** - Distribución muy desigual")
+                    st.error("Alta desigualdad - Distribución muy desigual")
                 
                 # Percentiles
                 p90_p10_ratio = df['sueldo_bruto'].quantile(0.9) / df['sueldo_bruto'].quantile(0.1)
@@ -368,12 +368,12 @@ def main():
                 st.metric("Coeficiente de Variación", f"{cv:.2f}")
             
             with col2:
-                st.subheader("📈 Distribución de Sueldos")
+                st.subheader("Distribución de Sueldos")
                 
                 # Histograma de distribución
                 fig_hist = px.histogram(
                     df, 
-                x='sueldo_bruto',
+                    x='sueldo_bruto',
                     nbins=50,
                     title="Distribución de Sueldos",
                     labels={'sueldo_bruto': 'Sueldo Bruto ($)', 'count': 'Frecuencia'}
@@ -383,7 +383,7 @@ def main():
             
             # Análisis por categorías
             if 'categoria_organismo' in df.columns:
-                st.subheader("🏢 Desigualdad por Categoría")
+                st.subheader("Desigualdad por Categoría")
                 
                 categoria_gini = df.groupby('categoria_organismo')['sueldo_bruto'].apply(calculate_gini).sort_values(ascending=False)
                 
@@ -393,13 +393,13 @@ def main():
                     title="Índice de Gini por Categoría de Organismo",
                     labels={'x': 'Categoría', 'y': 'Índice de Gini'},
                     color=categoria_gini.values,
-                color_continuous_scale='Reds'
-            )
+                    color_continuous_scale='Reds'
+                )
                 fig_gini.update_layout(height=400)
                 st.plotly_chart(fig_gini, width='stretch')
                 
                 # Tabla de desigualdad por categoría
-                st.subheader("📋 Tabla de Desigualdad por Categoría")
+                st.subheader("Tabla de Desigualdad por Categoría")
                 desigualdad_stats = df.groupby('categoria_organismo').agg({
                     'sueldo_bruto': ['count', 'mean', 'std', 'min', 'max']
                 }).round(0)
@@ -411,7 +411,7 @@ def main():
                 st.dataframe(desigualdad_stats, width='stretch')
         
         with tab5:
-            st.subheader("📋 Datos Raw")
+            st.subheader("Datos Raw")
             
             # Mostrar solo las primeras 1000 filas para mejor rendimiento
             df_display = df.head(1000)
@@ -419,12 +419,12 @@ def main():
             
             if len(df) > 1000:
                 st.info(f"Mostrando las primeras 1,000 filas de {len(df):,} registros totales.")
-        
-        # Información del dataset
-            st.subheader("📊 Información del Dataset")
-        col1, col2 = st.columns(2)
-        
-        with col1:
+            
+            # Información del dataset
+            st.subheader("Información del Dataset")
+            col1, col2 = st.columns(2)
+            
+            with col1:
                 st.write(f"**Total de registros:** {len(df):,}")
                 st.write(f"**Columnas mostradas:** {len(df.columns)}")
                 st.write(f"**Memoria utilizada:** {df.memory_usage(deep=True).sum() / 1024**2:.2f} MB")
@@ -434,13 +434,13 @@ def main():
                 st.write(f"**Índice de Gini:** {gini_coefficient:.3f}")
                 
                 if gini_coefficient < 0.3:
-                    st.write("📈 **Baja desigualdad** (Gini < 0.3)")
+                    st.write("Baja desigualdad (Gini < 0.3)")
                 elif gini_coefficient < 0.5:
-                    st.write("📊 **Desigualdad moderada** (Gini 0.3-0.5)")
+                    st.write("Desigualdad moderada (Gini 0.3-0.5)")
                 else:
-                    st.write("📉 **Alta desigualdad** (Gini > 0.5)")
-        
-        with col2:
+                    st.write("Alta desigualdad (Gini > 0.5)")
+            
+            with col2:
                 if 'categoria_organismo' in df.columns:
                     st.write("**Distribución por categoría:**")
                     categoria_dist = df['categoria_organismo'].value_counts()
