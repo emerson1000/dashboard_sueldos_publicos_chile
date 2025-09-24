@@ -43,7 +43,7 @@ def load_data():
                 st.success(f"✅ Cargando datos reales desde: {csv_file.name}")
                 df = pd.read_csv(csv_file)
                 if len(df) > 0:
-            return df
+                    return df
         
         # Si no se encuentran datos reales, crear datos de ejemplo
         st.warning("⚠️ No se encontraron datos consolidados. Mostrando datos de ejemplo.")
@@ -72,10 +72,10 @@ def clean_data(df):
     
     # Convertir sueldo_bruto a numérico
     if 'sueldo_bruto' in df.columns:
-    df['sueldo_bruto'] = pd.to_numeric(df['sueldo_bruto'], errors='coerce')
+        df['sueldo_bruto'] = pd.to_numeric(df['sueldo_bruto'], errors='coerce')
         df = df.dropna(subset=['sueldo_bruto'])
-        # Filtrar sueldos razonables
-        df = df[(df['sueldo_bruto'] >= 200000) & (df['sueldo_bruto'] <= 50000000)]
+        # Filtrar sueldos razonables (más permisivo)
+        df = df[(df['sueldo_bruto'] >= 100000) & (df['sueldo_bruto'] <= 10000000)]
     
     # Limpiar categorías
     if 'categoria_organismo' in df.columns:
