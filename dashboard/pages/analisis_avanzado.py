@@ -208,7 +208,7 @@ def main():
             labels={'sueldo_bruto': 'Sueldo Bruto ($)'}
         )
         fig.update_layout(height=400)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
     
     elif analysis_type == "📈 Análisis de Correlaciones":
         st.header("📈 Análisis de Correlaciones")
@@ -226,7 +226,7 @@ def main():
                 aspect="auto"
             )
             fig.update_layout(height=500)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
             
             # Mostrar correlaciones más altas
             st.subheader("Correlaciones Más Altas")
@@ -274,7 +274,7 @@ def main():
                 hover_data=['estamento', 'grado']
             )
             fig.update_layout(height=500)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
             
             # Distribución por cluster
             fig2 = px.histogram(
@@ -286,7 +286,7 @@ def main():
                 nbins=30
             )
             fig2.update_layout(height=400)
-            st.plotly_chart(fig2, use_container_width=True)
+            st.plotly_chart(fig2, use_container_width=True, config={"responsive": True})
             
         else:
             st.info("Se necesitan al menos 100 registros para realizar clustering")
@@ -331,7 +331,7 @@ def main():
                 labels={'x': 'Estamento', 'y': 'Coeficiente de Gini'}
             )
             fig.update_layout(height=400)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
         
         # Curva de Lorenz
         st.subheader("Curva de Lorenz")
@@ -372,7 +372,7 @@ def main():
             height=400
         )
         
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
     
     elif analysis_type == "📉 Análisis de Distribución":
         st.header("📉 Análisis de Distribución")
@@ -431,7 +431,7 @@ def main():
         ))
         
         fig.update_layout(height=400)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
     
     elif analysis_type == "🔍 Análisis Exploratorio":
         st.header("🔍 Análisis Exploratorio de Datos")
@@ -463,7 +463,7 @@ def main():
                 names=fuente_counts.index,
                 title="Distribución de Registros por Fuente"
             )
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
         
         # Top organismos por cantidad de registros
         st.subheader("Top 10 Organismos por Cantidad de Registros")
@@ -477,7 +477,7 @@ def main():
             labels={'x': 'Cantidad de Registros', 'y': 'Organismo'}
         )
         fig.update_layout(height=400)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
         
         # Análisis de completitud de datos
         st.subheader("Análisis de Completitud de Datos")
@@ -498,7 +498,7 @@ def main():
             labels={'Completitud (%)': 'Completitud (%)', 'Columna': 'Columna'}
         )
         fig.update_layout(height=400)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
 
 if __name__ == '__main__':
     main()

@@ -226,7 +226,7 @@ def main():
         hover_data=['Mediana', 'Cantidad']
     )
     fig.update_layout(height=600)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
     
     # Análisis detallado de la institución seleccionada
     if not df_filtered.empty:
@@ -256,7 +256,7 @@ def main():
                     hover_data=['Mediana', 'Cantidad']
                 )
                 fig.update_layout(height=400)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
                 
                 # Box plot por estamento
                 fig_box = px.box(
@@ -281,7 +281,7 @@ def main():
                 labels={'sueldo_bruto': 'Sueldo Bruto ($)', 'count': 'Frecuencia'}
             )
             fig_hist.update_layout(height=400)
-            st.plotly_chart(fig_hist, use_container_width=True)
+            st.plotly_chart(fig_hist, use_container_width=True, config={"responsive": True})
             
             # Estadísticas descriptivas
             st.subheader("📋 Estadísticas Descriptivas")
@@ -304,7 +304,7 @@ def main():
                 hover_data=['cargo', 'grado']
             )
             fig.update_layout(height=600)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
             
             # Tabla detallada
             st.subheader("📋 Detalle de Top Sueldos")

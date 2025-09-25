@@ -281,7 +281,7 @@ def main():
                         color_continuous_scale='Blues'
                     )
                     fig.update_layout(height=400)
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
                 else:
                     st.warning("No hay datos de estamentos disponibles")
             else:
@@ -300,7 +300,7 @@ def main():
                         color_continuous_scale='Greens'
                     )
                     fig.update_layout(height=400)
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
                 else:
                     st.warning("No hay datos de organismos disponibles")
             else:
@@ -328,7 +328,7 @@ def main():
                         hover_data=['Total_Funcionarios', 'Mediana_Sueldo', 'Organismos_Unicos']
                     )
                     fig.update_layout(height=400)
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
                     
                     # Tabla de estadísticas
                     st.subheader("Estadísticas por Categoría")
@@ -379,7 +379,7 @@ def main():
                     labels={'sueldo_bruto': 'Sueldo Bruto ($)', 'count': 'Frecuencia'}
                 )
                 fig_hist.update_layout(height=400)
-                st.plotly_chart(fig_hist, width='stretch')
+                st.plotly_chart(fig_hist, use_container_width=True, config={"responsive": True})
             
             # Análisis por categorías
             if 'categoria_organismo' in df.columns:
@@ -396,7 +396,7 @@ def main():
                     color_continuous_scale='Reds'
                 )
                 fig_gini.update_layout(height=400)
-                st.plotly_chart(fig_gini, width='stretch')
+                st.plotly_chart(fig_gini, use_container_width=True, config={"responsive": True})
                 
                 # Tabla de desigualdad por categoría
                 st.subheader("Tabla de Desigualdad por Categoría")

@@ -282,7 +282,7 @@ def main():
                 color_continuous_scale='Blues'
             )
             fig.update_layout(height=400)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
             
             # Box plot por estamento
             fig_box = px.box(
@@ -316,7 +316,7 @@ def main():
                 color_continuous_scale='Greens'
             )
             fig.update_layout(height=600)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
     
     with tab3:
         if not df_filtered.empty:
@@ -357,7 +357,7 @@ def main():
                 hover_data=['cargo', 'estamento', 'grado']
             )
             fig.update_layout(height=600)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
             
             # Tabla detallada
             st.subheader("📋 Detalle de Top Sueldos")
