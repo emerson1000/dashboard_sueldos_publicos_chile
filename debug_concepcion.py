@@ -79,3 +79,4 @@ try:
         
 except Exception as e:
     print(f"Error cargando datos completos: {e}")
+

@@ -57,3 +57,4 @@ print(f"  Después: ${mun_new['sueldo_bruto'].max():,.0f}")
 print("Sueldos promedio:")
 print(f"  Antes: ${mun_old['sueldo_bruto'].mean():,.0f}")
 print(f"  Después: ${mun_new['sueldo_bruto'].mean():,.0f}")
+

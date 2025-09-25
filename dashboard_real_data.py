@@ -295,7 +295,8 @@ def main():
                         color_continuous_scale='Blues'
                     )
                     fig.update_layout(height=400)
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
+
                 else:
                     st.warning("No hay datos de estamentos disponibles")
             else:
@@ -314,7 +315,8 @@ def main():
                         color_continuous_scale='Greens'
                     )
                     fig.update_layout(xaxis_tickangle=45, height=400)
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
+
                 else:
                     st.warning("No hay datos de organismos disponibles")
             else:
@@ -344,7 +346,8 @@ def main():
                         hover_data=['Total_Funcionarios', 'Mediana_Sueldo', 'Organismos_Unicos']
                     )
                     fig.update_layout(height=400)
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
+
                     
                     # Tabla de estadísticas por categoría
                     st.subheader("📊 Estadísticas por Categoría")
@@ -365,7 +368,8 @@ def main():
                                 hover_data=['organismo']
                             )
                             fig.update_layout(height=400)
-                            st.plotly_chart(fig, width='stretch')
+                            st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
+
                 else:
                     st.warning("No hay datos de categorías disponibles")
             else:
@@ -382,7 +386,8 @@ def main():
                     color_discrete_sequence=['#1f77b4']
                 )
                 fig.update_layout(height=400)
-                st.plotly_chart(fig, width='stretch')
+                st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
+
             else:
                 st.warning("No hay datos de sueldos disponibles")
         
@@ -402,7 +407,8 @@ def main():
                         hover_data=['nombre', 'cargo', 'estamento']
                     )
                     fig.update_layout(height=600)
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True, config={"responsive": True})
+
                 else:
                     st.warning("No hay datos de sueldos disponibles")
             else:
