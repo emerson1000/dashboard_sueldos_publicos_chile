@@ -73,7 +73,20 @@ st.markdown("""
 def load_real_data():
     """Carga los datos reales consolidados."""
     try:
-        data_file = Path("data/processed/datos_reales_consolidados.csv")
+        # Usar datos municipales corregidos si existen, sino usar datos originales
+        corrected_file = Path("data/processed/datos_municipales_corregidos.csv")
+        original_file = Path("data/processed/datos_reales_consolidados.csv")
+        
+        if corrected_file.exists():
+            data_file = corrected_file
+            st.success("✅ Usando datos municipales corregidos (inconsistencias geográficas solucionadas)")
+        elif original_file.exists():
+            data_file = original_file
+            st.warning("⚠️ Usando datos originales - ejecuta el validador para corregir inconsistencias")
+        else:
+            st.error("❌ No se encontraron archivos de datos")
+            return None
+            
         if data_file.exists():
             df = pd.read_csv(data_file, low_memory=False)
             
