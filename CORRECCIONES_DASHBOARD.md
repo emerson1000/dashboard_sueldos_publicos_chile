@@ -103,3 +103,4 @@ python verify_categories.py
 
 **🎉 Dashboard de Transparencia Salarial - Completamente Funcional**
 
+

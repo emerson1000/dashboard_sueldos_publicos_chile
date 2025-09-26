@@ -81,3 +81,4 @@ python test_no_warnings.py
 
 **🎉 Dashboard de Transparencia Salarial - Sin Warnings Molestos**
 
+

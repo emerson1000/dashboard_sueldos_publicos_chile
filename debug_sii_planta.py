@@ -53,3 +53,4 @@ print(f"\n=== PRIMER REGISTRO DE PLANTA ===")
 if len(planta) > 0:
     print(planta.iloc[0].to_dict())
 
+
