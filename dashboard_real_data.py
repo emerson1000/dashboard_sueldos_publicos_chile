@@ -69,7 +69,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-@st.cache_data
 def load_real_data():
     """Carga los datos reales consolidados."""
     try:
@@ -167,6 +166,13 @@ def main():
     # Header principal
     st.markdown('<h1 class="main-header">🏛️ Transparencia Salarial Chile</h1>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Datos reales consolidados del sistema de transparencia</p>', unsafe_allow_html=True)
+    
+    # Botón para recargar datos
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col2:
+        if st.button("🔄 Recargar Datos", help="Recarga los datos más recientes"):
+            st.cache_data.clear()
+            st.rerun()
     
     # Cargar datos
     df = load_real_data()
